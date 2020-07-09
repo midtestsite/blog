@@ -14,15 +14,15 @@ theme = "middleware-hugo-theme"
   # follow us link
   [[params.follow]]
     icon = "fa-twitter"
-    URL = "https://twitter.com/ACM_DEBS"
+    URL = ""
 
   [[params.follow]]
     icon = "fa-facebook"
-    URL = "https://www.facebook.com/ACM.DEBS"
+    URL = ""
 
   [[params.follow]]
     icon = "fa-linkedin"
-    URL = "https://www.linkedin.com/groups/4747505/"
+    URL = ""
 
 
   # If you want to remove the copyright text you need a Themefisher license.
@@ -37,7 +37,7 @@ theme = "middleware-hugo-theme"
   languageName = "En"
     weight = 2
     languageCode = "en-us"
-    title = "DEBS 2020"
+    title = "MIDDLEWARE 2021"
     dateFormat = "January 2, 2006"
     home = "HOME"
 
@@ -53,37 +53,37 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Call for Research Papers"
       parent = "CALLS"
-      url = "/call-for-research-papers"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Call for Industry Papers"
       parent = "CALLS"
-      url = "/call-for-industry-papers"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Call for Tutorials"
       parent = "CALLS"
-      url = "/call-for-tutorials"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 4
       name = "Call for Grand Challenge Solutions"
       parent = "CALLS"
-      url = "/call-for-grand-challenge-solutions"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 5
       name = "Call for Posters and Demos"
       parent = "CALLS"
-      url = "/call-for-posters-and-demos"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 6
       name = "Call for Doctoral Symposium"
       parent = "CALLS"
-      url = "/call-for-doctoral-symposium"
+      url = ""
 
     [[Languages.en.menu.header]]
     weight = 3
@@ -94,25 +94,25 @@ theme = "middleware-hugo-theme"
         weight = 1
         name = "Organizing Committee"
         parent = "COMMITTEE"
-        url = "/organizing-committee"
+        url = ""
 
         [[Languages.en.menu.header]]
         weight = 2
         name = "Program Committee"
         parent = "COMMITTEE"
-        url = "/program-committee"
+        url = ""
 
         [[Languages.en.menu.header]]
         weight = 3
         name = "Industry PC"
         parent = "COMMITTEE"
-        url = "/industry-pc"
+        url = ""
 
         [[Languages.en.menu.header]]
         weight = 4
         name = "Poster and Demo PC"
         parent = "COMMITTEE"
-        url = "/poster-demo-pc"
+        url = ""
 
     [[Languages.en.menu.header]]
     weight = 4
@@ -123,14 +123,14 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Important Dates"
       parent = "CONFERENCE INFO"
-      url = "/important-dates"
+      url = ""
 
 
       [[Languages.en.menu.header]]
       weight = 2
-      name = "Past DEBS Events"
+      name = "Past Events"
       parent = "CONFERENCE INFO"
-      url = "/past-debs-events"
+      url = ""
 
 
     [[Languages.en.menu.header]]
@@ -142,19 +142,19 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Full Program"
       parent = "PROGRAM"
-      url = "/full-program"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Keynote Speakers"
       parent = "PROGRAM"
-      url = "/keynote-speakers"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Accepted Papers"
       parent = "PROGRAM"
-      url = "/accepted-papers"
+      url = ""
 
     [[Languages.en.menu.header]]
     weight = 6
@@ -165,32 +165,20 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Conference Registration"
       parent = "REGISTRATION"
-      url = "/conference-registration"
+      url = ""
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Camera-Ready Instructions"
       parent = "REGISTRATION"
-      url = "/camera-ready-instructions"
-
-      [[Languages.en.menu.header]]
-      weight = 3
-      name = "Presentation Instructions"
-      parent = "REGISTRATION"
-      url = "/presentation-instructions"
-
-      [[Languages.en.menu.header]]
-      weight = 4
-      name = "Video Submission Instructions"
-      parent = "REGISTRATION"
-      url = "/video-submission-instructions"
+      url = ""
 
 
     [[Languages.en.menu.header]]
     weight = 7
-    name = "SUPPORT DEBS 2020"
+    name = "SUPPORT"
     hasChildren = false
-    url = "/support"
+    url = ""
 
     #[[Languages.en.menu.footer]]
       #weight = 1
@@ -215,61 +203,39 @@ theme = "middleware-hugo-theme"
 
   [Languages.en.params.slider]
     enable = true
-    title = "ACM/IFIP Middleware 2020"
-    subtitle = "test site"
-    date = "13th &ndash; 17th July 2020"
-    place = "Montreal, Quebec, Canada"
-    bgImage = "img/Montreal.jpg"
-    bgImageAlt = "img/Montreal.jpg"
+    title = "ACM/IFIP Middleware 2021"
+    subtitle = "22nd ACM/IFIP International Conference"
+    date = "7th &ndash; 11th December 2021"
+    place = "Quebec City, Quebec, Canada"
+    bgImage = "img/Quebec.jpg"
+    bgImageAlt = "img/Quebec.jpg"
     btnText = "Conference Information"
     url = "#scope"
-
-  [Languages.en.params.statement]
-    enable = true
-    link = "<a href = /full-program>Click here to see the online program</a>"
-    # text = "As of April 13, given the current situation of COVID19 and the likelihood of longer-term travel advisory, the decision has been made to hold DEBS online. The organizing committee is aiming in providing an exciting virtual conference, and is currently considering various options of online delivery. Note that the conference proceedings of all tracks for DEBS 2020 will proceed as planned. All accepted papers for all tracks will be available on the ACM Digital Library in early July 2020. We will monitor closely other conferences, as well as the situation on COVID-19 (coronavirus) and provide updates as they become available through our various channels (Website, Twitter, Facebook, LinkedIn)."
 
   [Languages.en.params.wrapper]
     enable = true
     image = "img/wrapper-img.png"
-    title = "About DEBS"
-    text1 = "Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for cutting-edge research in the field of event processing and distributed computing, and the integration of distributed and event-based systems in relevant domains such as Big Data, AI/ML, IoT, and Blockchain. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas through its tutorials, research papers, and the Grand Challenge."
+    title = "ACM/IFIP Middleware"
+    text1 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
   [Languages.en.params.blog1]
     enable = true
-    text1Title = "Models, architectures and paradigms:"
-    text2Title = "Systems and software:"
-    text3Title = "Applications:"
     title = "TOPICS OF INTEREST"
-    text1 = " Event-driven architectures, real-time analytics, complex event processing, event processing for AI/ML, event processing in big and fast data, publish/subscribe, data stream processing, security and encryption in stream processing, rule-based systems, maintenance of materialized views, dynamic graph processing, in-network processing, logic-based event recognition, event correlation and pattern languages."
-    text2 = " Distributed data processing, distributed programming, federated event-based systems, smart contracts, blockchain and distributed ledger technologies, message queues, middleware, AI/ML for event processing, information-centric networking, software-defined networking, security, reliability and resilience, programmable hardware, energy management and green computing as well as cloud, fog, ubiquitous and mobile computing."
-    text3 = " Use cases, requirements and applications of distributed and event-based systems in various domains including Internet-of-Things, cyber-physical systems, sensor networks, social networking, multimedia analytics, finance, healthcare and logistics, computer and network security. Also, relevant topics span enterprise-level computing, including enterprise application integration, real-time enterprises, event-based business process management, and support for enterprises to respond in timely fashion to changing situations."
+    text1 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    text2 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    text3 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
   [Languages.en.params.organizers]
     enable = true
     title = "General Co-Chairs"
     text1 = "Kaiwen Zhang, ÉTS Montréal"
-    text2 = "Khuzaima Daudjee, University of Waterloo"
-    text3 = "Bettina Kemme, McGill University"
+    text2 = "TBA"
+    text3 = "TBA"
 
   [Languages.en.params.feature]
-    enable = true
-    title = "École de technologie supérieure"
+    enable = false
+    title = "VENUE INFORMATION"
     bgImage = "img/campus.png"
     bgImageAlt = "img/campus.png"
-    content = "The conference will be hosted by École de Technologie Supérieure (ÉTS). Specializing in education and applied research in engineering and technology transfer to companies, ÉTS trains engineers and researchers who stand apart because of their practical and innovative approach. We offer approximately 100 different study programs for undergraduate, graduate, and doctoral students in five departments."
-
-
-  [Languages.en.params.call]
-    enable = false
-    #bgImage = "img/call-to-action-bg.jpg"
-    #title = "We design delightful digital experiences."
-    #paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-    #[Languages.en.params.call.button]
-      #url = "#"
-      #text = "tell us your story"
-  [Languages.en.params.euranova]
-    enable = true
-    imageAddr = "img/Call for paper.png"
-    imageURL = "https://workshop.euranova.eu/bigdata20.html"
+    content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."

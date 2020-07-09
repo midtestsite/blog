@@ -3,35 +3,11 @@ events:
   title : Important Dates
 
   eventsList:
-    - event : Tutorial Proposal Submission
-      date : <del>March 3rd</del> March 25th, 2020
+    - event : NA
+      date : NA
 
-    - event : Abstract Submission for Research Track
-      date : <del>March 13th</del> March 27th, 2020
-
-    - event : Research and Industry Paper Submission
-      date : <del>March 20th</del> April 3rd, 2020
-
-    - event : Grand Challenge Solution Submission
-      date : <del>April 7th</del> April 24th, 2020
-
-    - event : Author Notification Industry Track
-      date : May 3rd, 2020
-
-    - event : Author Notification Research Track
-      date :  <del>May 3rd</del> May 18th, 2020
-
-    - event : Doctoral Symposium Submission
-      date :  <del>May 10th</del> May 18th, 2020
-
-    - event : Poster & Demo Submission
-      date :  <del>May 18th</del> May 25th, 2020
-
-    - event : Camera Ready for All Tracks
-      date : <del>May 28th</del> June 4th, 2020
-
-    - event : Conference
-      date : July 13th &ndash; 17th, 2020
+    - event : NA
+      date : NA
 
 
 
@@ -40,4 +16,4 @@ events:
 
 twitterFeed:
   enable : true
-  userID : ACM_DEBS
+  userID : middleware2020
