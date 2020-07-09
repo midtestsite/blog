@@ -31,23 +31,28 @@ $(document).ready(function(){
       <div class="col-md-9 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <div style="margin-top:25px;">
+            <div>
               <h2>{{ .Site.Params.statement.link | markdownify }}</h2>
             </div>
-            <h2>{{ .Site.Params.wrapper.title }}</h2>
-            <p align="justify">{{ .Site.Params.wrapper.text1 }}</p>
-            <p id="scope"></p>
-            <p></p>
-            <h2>{{ .Site.Params.blog1.title }}</h2>
-            <p align="justify">{{ .Site.Params.blog1.text1 }}</p>
-            <p align="justify">{{ .Site.Params.blog1.text2 }}</p>
-            <p align="justify">{{ .Site.Params.blog1.text3 }}</p>
-            <h2>{{ .Site.Params.venue.title }}</h2>
-            <p align="justify">{{ .Site.Params.venue.italic }}</p>
-            <h2>{{ .Site.Params.organizers.title }}</h2>
-            <p align="justify"><li>{{ .Site.Params.organizers.text1 }}</li>
-            <li align = "justify">{{ .Site.Params.organizers.text2 }}</li>
-            <li align = "justify">{{ .Site.Params.organizers.text3 }}</li></p>
+            <div>
+              <h2>{{ .Site.Params.wrapper.title }}</h2>
+              <p align="justify">{{ .Site.Params.wrapper.text1 }}</p>
+              <p id="scope"></p>
+              <h2>{{ .Site.Params.blog1.title }}</h2>
+              <p align="justify">{{ .Site.Params.blog1.text1 }}</p>
+              <p align="justify">{{ .Site.Params.blog1.text2 }}</p>
+              <p align="justify">{{ .Site.Params.blog1.text3 }}</p>
+            </div>
+            <div>
+              <h2>{{ .Site.Params.venue.title }}</h2>
+              <p align="justify">{{ .Site.Params.venue.italic }}</p>
+            </div>
+            <div>
+              <h2>{{ .Site.Params.organizers.title }}</h2>
+              <p align="justify"><li>{{ .Site.Params.organizers.text1 }}</li>
+              <li align = "justify">{{ .Site.Params.organizers.text2 }}</li>
+              <li align = "justify">{{ .Site.Params.organizers.text3 }}</li></p>
+            </div>
           </div>
         </div>
       </div><!-- .col-md-7 close -->

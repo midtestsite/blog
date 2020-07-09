@@ -37,7 +37,7 @@ theme = "middleware-hugo-theme"
   languageName = "En"
     weight = 2
     languageCode = "en-us"
-    title = "MIDDLEWARE 2021"
+    title = "Middleware 2021"
     dateFormat = "January 2, 2006"
     home = "HOME"
 
@@ -203,7 +203,7 @@ theme = "middleware-hugo-theme"
 
   [Languages.en.params.slider]
     enable = true
-    title = "ACM/IFIP Middleware 2021"
+    title = "MIDDLEWARE 2021"
     subtitle = "22nd ACM/IFIP International Conference"
     date = "7th &ndash; 11th December 2021"
     place = "Quebec City, Quebec, Canada"
