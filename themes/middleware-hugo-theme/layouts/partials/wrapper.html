@@ -1,0 +1,57 @@
+<!-- Wrapper Start -->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <div style="margin-top:25px;">
+              <h2>{{ .Site.Params.statement.link | markdownify }}</h2>
+            </div>
+            <h2>{{ .Site.Params.wrapper.title }}</h2>
+            <p align="justify">{{ .Site.Params.wrapper.text1 }}</p>
+            <p id="scope"></p>
+            <p></p>
+            <h2>{{ .Site.Params.blog1.title }}</h2>
+            <p align="justify"><b>{{ .Site.Params.blog1.text1Title }}</b>{{ .Site.Params.blog1.text1 }}</p>
+            <p align="justify"><b>{{ .Site.Params.blog1.text2Title }}</b>{{ .Site.Params.blog1.text2 }}</p>
+            <p align="justify"><b>{{ .Site.Params.blog1.text3Title }}</b>{{ .Site.Params.blog1.text3 }}</p>
+            <h2>{{ .Site.Params.venue.title }}</h2>
+            <p align="justify">{{ .Site.Params.venue.italic }}</p>
+            <h2>{{ .Site.Params.organizers.title }}</h2>
+            <p align="justify"><li>{{ .Site.Params.organizers.text1 }}</li>
+            <li align = "justify">{{ .Site.Params.organizers.text2 }}</li>
+            <li align = "justify">{{ .Site.Params.organizers.text3 }}</li></p>
+          </div>
+        </div>
+      </div><!-- .col-md-7 close -->
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
