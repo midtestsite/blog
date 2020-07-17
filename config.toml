@@ -94,7 +94,7 @@ theme = "middleware-hugo-theme"
         weight = 1
         name = "Organizing Committee"
         parent = "COMMITTEE"
-        url = ""
+        url = "/organizing-committee"
 
         [[Languages.en.menu.header]]
         weight = 2
@@ -129,6 +129,12 @@ theme = "middleware-hugo-theme"
       [[Languages.en.menu.header]]
       weight = 2
       name = "Past Events"
+      parent = "CONFERENCE INFO"
+      url = ""
+
+      [[Languages.en.menu.header]]
+      weight = 3
+      name = "Venue Information"
       parent = "CONFERENCE INFO"
       url = ""
 
@@ -205,7 +211,7 @@ theme = "middleware-hugo-theme"
     enable = true
     title = "MIDDLEWARE 2021"
     subtitle = "22nd ACM/IFIP International Conference"
-    date = "7th &ndash; 11th December 2021"
+    date = "6th &ndash; 10th December 2021"
     place = "Quebec City, Quebec, Canada"
     bgImage = "img/Quebec.jpg"
     bgImageAlt = "img/Quebec.jpg"
@@ -230,8 +236,7 @@ theme = "middleware-hugo-theme"
     enable = true
     title = "General Co-Chairs"
     text1 = "Kaiwen Zhang, ÉTS Montréal"
-    text2 = "TBA"
-    text3 = "TBA"
+    text2 = "Abdelouahed Gherbi, ÉTS Montréal"
 
   [Languages.en.params.feature]
     enable = false

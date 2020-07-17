@@ -1,0 +1,17 @@
+people:
+  enable: true
+
+title1: General Co-Chairs
+people1:
+  - person: Kaiwen Zhang, ÉTS
+  - person: Abdelouahed Gherbi, ÉTS
+
+title2: PC Co-Chairs
+people2:
+  - person: Nalini Venkatasubramanian (UC Irvine)
+  - person: ‪Luís Veiga U.Lisboa / INESC-ID
+
+title3: Web Co-Chairs
+people3:
+  - person: Sardar Basiri, ÉTS
+  - person: Pratyush Agnihotri, axxessio GmbH

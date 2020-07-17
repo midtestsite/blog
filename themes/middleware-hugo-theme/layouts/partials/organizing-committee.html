@@ -1,0 +1,30 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "organizing-committee">
+  <div class="container">
+    <div class="row">
+      {{ if $data.organizingcommittee.people.enable }}
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div style="margin-bottom: 500px;">
+            <h1>{{ $data.organizingcommittee.title1 }}</h1>
+            {{ range $data.organizingcommittee.people1 }}
+            <li align = "justify">{{.person}}</li>
+            {{ end }}
+            <h1>{{ $data.organizingcommittee.title2 }}</h1>
+            {{ range $data.organizingcommittee.people2 }}
+            <li align = "justify">{{.person}}</li>
+            {{ end }}
+            <h1>{{ $data.organizingcommittee.title3 }}</h1>
+            {{ range $data.organizingcommittee.people3 }}
+            <li align = "justify">{{.person}}</li>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

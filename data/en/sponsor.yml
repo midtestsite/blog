@@ -3,11 +3,15 @@ title: Just some of our latest projects.
 subtitle: Don’t just take our word for it. Check out some of our latest work.
 
 clients:
-  - image: "/img/clients/clients-logo1.jpg"
+  - image: "/img/sponsors/sponsor-logo1.png"
     #url: "#"
-  - image: "/img/clients/clients-logo3.png"
+  - image: "/img/sponsors/sponsor-logo2.png"
     #url: "#"
-  - image: "/img/clients/clients-logo1.jpg"
+  - image: "/img/sponsors/sponsor-logo3.png"
     #url: "#"
-  - image: "/img/clients/clients-logo3.png"
+  - image: "/img/sponsors/sponsor-logo1.png"
+    #url: "#"
+  - image: "/img/sponsors/sponsor-logo2.png"
+    #url: "#"
+  - image: "/img/sponsors/sponsor-logo3.png"
     #url: "#"
