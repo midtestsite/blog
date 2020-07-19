@@ -234,14 +234,14 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #slider .block p {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 90px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 5px;
 }
 
 #slider .block p1 {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -1200,6 +1200,13 @@ px      68    160    252    */
     font-size: 20px;
   }
   #slider .block p {
+    font-size: 13px;
+    line-height: 30px;
+  }
+  #slider .block p1 {
+    font-size: 12px;
+  }
+  #slider .block p2 {
     font-size: 13px;
   }
   /*--

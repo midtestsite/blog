@@ -182,7 +182,7 @@ theme = "middleware-hugo-theme"
 
     [[Languages.en.menu.header]]
     weight = 7
-    name = "SUPPORT"
+    name = "SPONSORSHIP"
     hasChildren = false
     url = ""
 
@@ -212,7 +212,7 @@ theme = "middleware-hugo-theme"
     title = "MIDDLEWARE 2021"
     subtitle = "22nd ACM/IFIP International Conference"
     date = "6th &ndash; 10th December 2021"
-    place = "Quebec City, Quebec, Canada"
+    place = "Fairmont Le Château Frontenac<br>Québec City, Québec, Canada"
     bgImage = "img/Quebec.jpg"
     bgImageAlt = "img/Quebec.jpg"
     btnText = "Conference Information"
