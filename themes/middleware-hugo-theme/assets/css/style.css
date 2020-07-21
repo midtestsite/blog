@@ -986,7 +986,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-  background: #576E87;
+  background: #154360;
   text-align: center;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1006,6 +1006,11 @@ footer .footer-manu {
   padding-bottom: 25px;
 }
 
+footer .footer-manu center {
+  color: #ABB2B9;
+  font-size: 19px;
+}
+
 footer .footer-manu ul {
   margin: 0px;
   padding: 0px;
@@ -1013,16 +1018,19 @@ footer .footer-manu ul {
 
 footer .footer-manu ul li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 10px;
+  color: #ABB2B9;
+  font-size: 25px;
 }
 
 footer .footer-manu ul li a {
   display: inline-block;
-  color: #494949;
+  color: #ABB2B9;
+  font-size: 25px;
 }
 
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: #fff;
 }
 
 
@@ -1403,10 +1411,11 @@ px      68    160    252    */
 -----------------------------------------------*/
   /*--
 	footer Start
---*/
+
   footer .footer-manu {
     display: none;
   }
+  --*/
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
