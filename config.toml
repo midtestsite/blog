@@ -69,7 +69,7 @@ theme = "middleware-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 4
-      name = "Call for Grand Challenge Solutions"
+      name = "Call for Workshops"
       parent = "CALLS"
       url = ""
 
@@ -102,18 +102,6 @@ theme = "middleware-hugo-theme"
         parent = "COMMITTEE"
         url = ""
 
-        [[Languages.en.menu.header]]
-        weight = 3
-        name = "Industry PC"
-        parent = "COMMITTEE"
-        url = ""
-
-        [[Languages.en.menu.header]]
-        weight = 4
-        name = "Poster and Demo PC"
-        parent = "COMMITTEE"
-        url = ""
-
     [[Languages.en.menu.header]]
     weight = 4
     name = "CONFERENCE INFO"
@@ -121,20 +109,19 @@ theme = "middleware-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 1
-      name = "Important Dates"
+      name = "Venue Information"
       parent = "CONFERENCE INFO"
       url = ""
 
-
       [[Languages.en.menu.header]]
       weight = 2
-      name = "Past Events"
+      name = "Accommodation"
       parent = "CONFERENCE INFO"
       url = ""
 
       [[Languages.en.menu.header]]
       weight = 3
-      name = "Venue Information"
+      name = "Visa Information"
       parent = "CONFERENCE INFO"
       url = ""
 
@@ -170,12 +157,6 @@ theme = "middleware-hugo-theme"
       [[Languages.en.menu.header]]
       weight = 1
       name = "Conference Registration"
-      parent = "REGISTRATION"
-      url = ""
-
-      [[Languages.en.menu.header]]
-      weight = 2
-      name = "Camera-Ready Instructions"
       parent = "REGISTRATION"
       url = ""
 
@@ -217,6 +198,11 @@ theme = "middleware-hugo-theme"
     bgImageAlt = "img/Quebec.jpg"
     btnText = "Conference Information"
     url = "#scope"
+
+  [Languages.en.params.statement]
+    enable = true
+    text = "We are currently planning for a physical conference in Quebec City, scheduled for December 2021. Due to the current pandemic, our plans may change and require a virtual conference. We will provide updates as they become available through our various channels (Website, Twitter, Facebook, LinkedIn). In any case, please note that Middleware 2021 will adopt a 2-cycles submission process, and that the deadline for the 1st cycle submission of research articles is set to the end of November 2020."
+
 
   [Languages.en.params.wrapper]
     enable = true
