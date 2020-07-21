@@ -222,22 +222,42 @@ theme = "middleware-hugo-theme"
     enable = true
     image = "img/wrapper-img.png"
     title = "ACM/IFIP Middleware"
-    text1 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-  [Languages.en.params.blog1]
+    textArray = ["The annual ACM/IFIP Middleware conference is a major forum for the discussion of innovations and recent scientific advances of middleware systems with a focus on the design, implementation, deployment, and evaluation of distributed systems, platforms and architectures for computing, storage, and communication.",
+    "Highlights of the conference will include a high quality single-track technical program, invited speakers, an industrial track, panel discussions involving academic and industry leaders, poster and demonstration presentations, a doctoral symposium, tutorials and workshops."]
+  [Languages.en.params.blog]
     enable = true
     title = "TOPICS OF INTEREST"
-    text1 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    text2 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    text3 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-
-  [Languages.en.params.organizers]
+    paragraph = "Original submissions of research papers on a diverse range of topics are sought, particularly those identifying new research directions. The topics of the interest for the conference include, but are not limited to:"
+    textArray = ["Cloud and data centers",
+                 "Virtualization, auto-scaling, provisioning, and scheduling",
+                 "Data-intensive computing (big data) and data analytics",
+                 "Stream Processing",
+                 "Machine learning",
+                 "Mobile and pervasive systems and services",
+                 "Internet-of-Things, smart cities",
+                 "Fog, Edge computing",
+                 "Cyber-physical and Real-time systems",
+                 "Energy and power-aware techniques",
+                 "Event-based, publish/subscribe, and peer-to-peer solutions",
+                 "Networking, network function virtualization, software-defined networking",
+                 "Multimedia Systems",
+                 "Fault tolerance and Consistency",
+                 "Blockchains",
+                 "Security and privacy",
+                 "Monitoring, resource management and analysis",
+                 "Middleware Design principles",
+                 "Programming abstractions and paradigms for middleware",
+                 "Reconfigurable, adaptable, and reflective approaches",
+                 "Reviews of middleware paradigms, e.g., object models, aspect orientation, etc.",
+                 "Methodologies and tools for design, implementation, verification, and evaluation"]
+  [Languages.en.params.general]
     enable = true
     title = "General Co-Chairs"
-    text1 = "Kaiwen Zhang, ÉTS Montréal"
-    text2 = "Abdelouahed Gherbi, ÉTS Montréal"
-
+    textArray = ["Kaiwen Zhang, ÉTS Montréal", "Abdelouahed Gherbi, ÉTS Montréal"]
+  [Languages.en.params.pc]
+    enable = true
+    title = "PC Co-Chairs"
+    textArray = ["Nalini Venkatasubramanian, UC Irvine", "Luis Veiga, INESC-ID / Technical University of Lisbon"]
   [Languages.en.params.feature]
     enable = false
     title = "VENUE INFORMATION"

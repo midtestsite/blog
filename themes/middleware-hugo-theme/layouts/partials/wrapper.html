@@ -36,21 +36,28 @@ $(document).ready(function(){
             </div>
             <div>
               <h2>{{ .Site.Params.wrapper.title }}</h2>
-              <p align="justify">{{ .Site.Params.wrapper.text1 }}</p>
-              <p id="scope"></p>
-              <h2>{{ .Site.Params.blog1.title }}</h2>
-              <p align="justify">{{ .Site.Params.blog1.text1 }}</p>
-              <p align="justify">{{ .Site.Params.blog1.text2 }}</p>
-              <p align="justify">{{ .Site.Params.blog1.text3 }}</p>
+              {{ range .Site.Params.wrapper.textArray }}
+                <p align="justify">{{ . }}</p>
+              {{ end }}
+            </div>
+            <div id="scope">
+              <h2>{{ .Site.Params.blog.title }}</h2>
+              <p align="justify">{{ .Site.Params.blog.paragraph }}</p>
+              {{ range .Site.Params.blog.textArray }}
+              <li>{{ . }}</li>
+              {{ end }}
             </div>
             <div>
-              <h2>{{ .Site.Params.venue.title }}</h2>
-              <p align="justify">{{ .Site.Params.venue.italic }}</p>
+              <h2 style="margin-bottom:20px;">{{ .Site.Params.general.title }}</h2>
+              {{ range .Site.Params.general.textArray }}
+              <li>{{ . }}</li>
+              {{ end }}
             </div>
             <div>
-              <h2>{{ .Site.Params.organizers.title }}</h2>
-              <p align="justify"><li>{{ .Site.Params.organizers.text1 }}</li>
-              <li align = "justify">{{ .Site.Params.organizers.text2 }}</li></p>
+              <h2 style="margin-bottom:20px;">{{ .Site.Params.pc.title }}</h2>
+              {{ range .Site.Params.pc.textArray }}
+              <li>{{ . }}</li>
+              {{ end }}
             </div>
           </div>
         </div>
