@@ -3,11 +3,20 @@ events:
   title : Important Dates
 
   eventsList:
-    - event : Research Track Submission (1st Cycle)
-      date : ~End of November 2020
+    # - event : Research Track Submission (1st Cycle)
+    #   date : ~End of November 2020
+    #
+    # - event : Research Track Submission (2nd Cycle)
+    #   date : ~Beginning of June 2021
+    #
+    # - event : Conference
+    #   date : December 6th--10th, 2021
 
-    - event : Research Track Submission (2nd Cycle)
-      date : ~Beginning of June 2021
+    - event : Abstract Submission
+      date :  November 20th, 2020
+
+    - event : Full Paper Submission
+      date :  December 1st, 2020
 
     - event : Conference
       date : December 6th--10th, 2021
