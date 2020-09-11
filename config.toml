@@ -1,5 +1,5 @@
 title = "DEBS2020"
-baseURL = "https://midtestsite.github.io/"
+baseURL = "https://2021.middleware-conference.org/"
 languageCode = "en-us"
 theme = "middleware-hugo-theme"
 
@@ -235,7 +235,7 @@ theme = "middleware-hugo-theme"
                  "Programming abstractions and paradigms for middleware",
                  "Reconfigurable, adaptable, and reflective approaches",
                  "Reviews of middleware paradigms, e.g., object models, aspect orientation, etc.",
-                 "Methodologies and tools for design, implementation, verification, and evaluation"]
+                 "Methodologies and tools for middleware systems design, implementation, verification, and evaluation"]
   [Languages.en.params.general]
     enable = true
     title = "General Co-Chairs"
