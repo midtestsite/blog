@@ -12,11 +12,35 @@ events:
     # - event : Conference
     #   date : December 6th--10th, 2021
 
-    - event : Abstract Submission
+    - event : Abstract Submission -- 1st Cycle
       date :  November 20th, 2020
 
-    - event : Full Paper Submission
+    - event : Full Paper Submission -- 1st Cycle
       date :  December 1st, 2020
+
+    - event : Author Notification -- 1st Cycle
+      date :  February 28th, 2021
+
+    - event : Revised Submissions -- 1st Cycle
+      date :  April 2nd, 2021
+
+    - event : Notifications of Decisions of Revised Papers -- 1st Cycle
+      date :  April 22nd, 2021
+
+    - event : Abstract Submission -- 2nd Cycle
+      date :  May 15th, 2021
+
+    - event : Full Paper Submission -- 2nd Cycle
+      date :  May 22nd, 2021
+
+    - event : Author Notification -- 2nd Cycle
+      date :  August 15th, 2021
+
+    - event : Revised Submissions -- 2nd Cycle
+      date :  September 15th, 2021
+
+    - event : Notifications of Decisions of Revised Papers -- 2nd Cycle
+      date :  September 30th, 2021
 
     - event : Conference
       date : December 6th--10th, 2021
