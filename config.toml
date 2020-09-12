@@ -53,7 +53,7 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Call for Research Papers"
       parent = "CALLS"
-      url = "index.html"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 2
@@ -65,25 +65,25 @@ theme = "middleware-hugo-theme"
       weight = 3
       name = "Call for Tutorials"
       parent = "CALLS"
-      url = "#"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 4
       name = "Call for Workshops"
       parent = "CALLS"
-      url = "2021"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 5
       name = "Call for Posters and Demos"
       parent = "CALLS"
-      url = ""
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 6
       name = "Call for Doctoral Symposium"
       parent = "CALLS"
-      url = ""
+      url = "/"
 
     [[Languages.en.menu.header]]
     weight = 3
@@ -123,7 +123,7 @@ theme = "middleware-hugo-theme"
       weight = 3
       name = "Visa Information"
       parent = "CONFERENCE INFO"
-      url = "/2021"
+      url = "/"
 
 
     [[Languages.en.menu.header]]
@@ -135,19 +135,19 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Full Program"
       parent = "PROGRAM"
-      url = "/2021"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Keynote Speakers"
       parent = "PROGRAM"
-      url = "/2021"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Accepted Papers"
       parent = "PROGRAM"
-      url = "/2021"
+      url = "/"
 
     [[Languages.en.menu.header]]
     weight = 6
@@ -158,14 +158,14 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Conference Registration"
       parent = "REGISTRATION"
-      url = ""
+      url = "/"
 
 
     [[Languages.en.menu.header]]
     weight = 7
     name = "SPONSORSHIP"
     hasChildren = false
-    url = ""
+    url = "/"
 
     #[[Languages.en.menu.footer]]
       #weight = 1
