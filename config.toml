@@ -1,5 +1,5 @@
 title = "MIDDLEWARE2021"
-baseURL = "https://2021.middleware-conference.org/"
+baseURL = "https://middleware-conf.github.io/2021/"
 languageCode = "en-us"
 theme = "middleware-hugo-theme"
 
