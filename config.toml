@@ -53,37 +53,37 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Call for Research Papers"
       parent = "CALLS"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Call for Industry Papers"
       parent = "CALLS"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Call for Tutorials"
       parent = "CALLS"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 4
       name = "Call for Workshops"
       parent = "CALLS"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 5
       name = "Call for Posters and Demos"
       parent = "CALLS"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 6
       name = "Call for Doctoral Symposium"
       parent = "CALLS"
-      url = "HOME"
+      url = "/"
 
     [[Languages.en.menu.header]]
     weight = 3
@@ -100,7 +100,7 @@ theme = "middleware-hugo-theme"
         weight = 2
         name = "Program Committee"
         parent = "COMMITTEE"
-        url = "HOME"
+        url = "/"
 
     [[Languages.en.menu.header]]
     weight = 4
@@ -111,19 +111,19 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Venue Information"
       parent = "CONFERENCE INFO"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Accommodation"
       parent = "CONFERENCE INFO"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Visa Information"
       parent = "CONFERENCE INFO"
-      url = "HOME"
+      url = "/"
 
 
     [[Languages.en.menu.header]]
@@ -135,19 +135,19 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Full Program"
       parent = "PROGRAM"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Keynote Speakers"
       parent = "PROGRAM"
-      url = "HOME"
+      url = "/"
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Accepted Papers"
       parent = "PROGRAM"
-      url = "HOME"
+      url = "/"
 
     [[Languages.en.menu.header]]
     weight = 6
@@ -158,14 +158,14 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Conference Registration"
       parent = "REGISTRATION"
-      url = "HOME"
+      url = "/"
 
 
     [[Languages.en.menu.header]]
     weight = 7
     name = "SPONSORSHIP"
     hasChildren = false
-    url = "HOME"
+    url = "/"
 
     #[[Languages.en.menu.footer]]
       #weight = 1
