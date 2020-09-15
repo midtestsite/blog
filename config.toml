@@ -14,7 +14,7 @@ theme = "middleware-hugo-theme"
   # follow us link
   [[params.follow]]
     icon = "fa-twitter"
-    URL = "https://twitter.com/middleware2020?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Amiddleware2020&ref_url=https%3A%2F%2Fmidtestsite.github.io%2F7f14d641eb7b0b9d151022675c05807cfe65367e%2Findex.html"
+    URL = "https://twitter.com/2021Acm"
 
   [[params.follow]]
     icon = "fa-facebook"
