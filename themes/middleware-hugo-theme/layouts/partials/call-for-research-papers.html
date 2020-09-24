@@ -20,7 +20,7 @@
           <div>
             <p align="justify" style="margin-top:20px;">{{ $data.callforresearchpapers.text2 }}</p>
             {{ range $data.callforresearchpapers.papers }}
-              <li style="margin-bottom:10px;">{{ .paper | markdownify }}</li>
+              <li>{{ .paper | markdownify }}</li>
             {{ end }}
           </div>
           <div>
