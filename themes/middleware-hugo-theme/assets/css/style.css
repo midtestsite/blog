@@ -1199,9 +1199,12 @@ px      68    160    252    */
   p {
     font-size: 13px;
   }
+  li {
+    font-size: 13px;
+  }
   header .navbar-default .navbar-toggle {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
   #slider {
     padding-top: 90px;
