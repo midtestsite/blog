@@ -100,7 +100,7 @@ theme = "middleware-hugo-theme"
         weight = 2
         name = "Program Committee"
         parent = "COMMITTEE"
-        url = "/"
+        url = "/program-committee"
 
     [[Languages.en.menu.header]]
     weight = 4
