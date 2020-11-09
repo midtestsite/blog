@@ -1,6 +1,6 @@
 people:
   enable: true
-
+mention: THE PAGE IS IN PROGRESS!
 title1: PC Co-Chairs
 people1:
   - person: Nalini Venkatasubramanian, UC Irvine, USA
@@ -49,6 +49,7 @@ members:
   - person: Christine Julien, The University of Texas at Austin, USA
   - person: Vasia Kalavri, University of Boston, USA
   - person: Vana Kalogeraki, AUEB, Greece
+  - person: Rüdiger Kapitza, TU Braunschweig, Germany
   - person: Boris Koldehofe, TU Darmstadt, Germany
   - person: Fabio Kon, University of Sāo Paulo, Brazil
   - person: Ling Liu, Georgia Tech, USA
