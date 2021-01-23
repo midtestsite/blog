@@ -1,5 +1,5 @@
 title = "MIDDLEWARE2021"
-baseURL = "https://midtestsite.github.io/"
+baseURL = "https://middleware-conf.github.io/2021/"
 languageCode = "en-us"
 theme = "middleware-hugo-theme"
 
@@ -165,7 +165,7 @@ theme = "middleware-hugo-theme"
     weight = 7
     name = "SPONSORSHIP"
     hasChildren = false
-    url = "/"
+    url = "/sponsorship"
 
     #[[Languages.en.menu.footer]]
       #weight = 1

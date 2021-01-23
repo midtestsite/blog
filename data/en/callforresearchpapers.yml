@@ -30,37 +30,54 @@ topics:
 text2: 'Original papers of three types are sought:'
 
 papers:
-  - paper: '<b>Research Papers:</b> These papers report original research on the above topics, and will be evaluated on significance of the problem, novelty of the solution, advancement beyond prior work, sufficient supporting evidence and clarity of the presentation.'
-  - paper: '<b>Experimentation and Deployment Papers:</b> These papers describe complete systems, platforms, and/or comprehensive experimental evaluations of alternative designs and solutions to well-known problems. The emphasis during the evaluation of these papers will be less on the novelty and more on the demonstrated usefulness and potential impact of the contributions, the extensive experimentation involved, and the quality and weight of the lessons learned.'
-  - paper: '<b>Big Ideas Papers:</b> These are papers that have the potential for opening up new research directions. For such papers, the potential to motivate new research is more important than full experimental evaluation, though some preliminary evidence of the effectiveness of the approach or idea is important.'
+  - paper: 'Research Papers: '
+    info: These papers report original research on the above topics, and will be evaluated on significance of the problem, novelty of the solution, advancement beyond prior work, sufficient supporting evidence and clarity of the presentation.
+  - paper: 'Experimentation and Deployment Papers: '
+    info: These papers describe complete systems, platforms, and/or comprehensive experimental evaluations of alternative designs and solutions to well-known problems. The emphasis during the evaluation of these papers will be less on the novelty and more on the demonstrated usefulness and potential impact of the contributions, the extensive experimentation involved, and the quality and weight of the lessons learned.
+  - paper: 'Big Ideas Papers: '
+    info: These are papers that have the potential for opening up new research directions. For such papers, the potential to motivate new research is more important than full experimental evaluation, though some preliminary evidence of the effectiveness of the approach or idea is important.
 
 importantDates:
   title: 'Important Dates, Deadlines, Conditions'
   text: 'Starting in 2021, we are offering two submission deadlines, and we are providing the possibility of getting one-shot-revision decisions in lieu of rejection. A more  detailed explanation of the changes are provided below.  '
   firstRoundTitle: 'First Round: Fall/Winter deadline:'
   firstRoundDates:
-    - date: 'Abstract Submission Deadline: <b>November 20, 2020</b>'
-    - date: 'Full paper submissions due: <b>December 1, 2020</b>'
-    - date: 'Notification to authors (Accept/ Accept minor-revision/ Revise/ Reject): <b>February 28, 2021</b>'
-    - date: 'Revised submissions due: <b>April 2, 2021</b>'
-    - date: 'Notifications of decisions of revised papers (Accept/Reject): <b>April 22, 2021</b>'
-    - date: 'Final paper files (camera ready copy) due: <b>May 2, 2021</b>'
+    - event: 'Abstract Submission Deadline: '
+      date: November 20, 2020
+    - event: 'Full paper submissions due: '
+      date: December 1, 2020
+    - event: 'Notification to authors (Accept/ Accept minor-revision/ Revise/ Reject): '
+      date: February 28, 2021
+    - event: 'Revised submissions due: '
+      date: April 2, 2021
+    - event: 'Notifications of decisions of revised papers (Accept/Reject): '
+      date: April 22, 2021
+    - event: 'Final paper files (camera ready copy) due: '
+      date: May 2, 2021
 
   secondRoundTitle: 'Second round: Spring/Summer deadline:'
   secondRoundDates:
-    - date: 'Abstract Submission Deadline: <b>May 15, 2021</b>'
-    - date: 'Full paper submissions due: <b>May 22, 2021</b>'
-    - date: 'Notification to authors (Accept/ Accept minor-revision/ Revise/ Reject): <b>August 15, 2021</b>'
-    - date: 'Revised submissions due: <b>September 15, 2021</b>'
-    - date: 'Notifications of decisions of revised papers (Accept/Reject): <b>September 30, 2021</b>'
-    - date: 'Final paper files (camera ready copy) due: <b>October 15, 2021</b>'
+    - event: 'Abstract Submission Deadline: '
+      date: May 15, 2021
+    - event: 'Full paper submissions due: '
+      date: May 22, 2021
+    - event: 'Notification to authors (Accept/ Accept minor-revision/ Revise/ Reject): '
+      date: August 15, 2021
+    - event: 'Revised submissions due: '
+      date: September 15, 2021
+    - event: 'Notifications of decisions of revised papers (Accept/Reject): '
+      date: September 30, 2021
+    - event: 'Final paper files (camera ready copy) due: '
+      date: October 15, 2021
 
 keyChanges:
   title: "Key Changes and Conditions"
   changes:
-    - item: '<b>Once-per-year submission:</b> A research article may be submitted to ACM Middleware only once in a single year. Submissions that are rejected in the 1st Round (Fall Submission) of ACM Middleware 2021 research track are <b>NOT ELIGIBLE</b> for submission to the 2nd Round (Spring Submission) of ACM Middleware 2021. Papers submitted to any deadline (Round 1 or Round 2) <b>ARE ELIGIBLE</b> for submission to Middleware 2022 (Fall/Spring  deadlines).'
-    - item: "<b>One-shot revision:</b> A limited set of papers in each round will be given the option of a one-shot revision. Such a revision decision will include a summary of the paper's merits and a list of necessary changes that are required for the paper to be accepted at Middleware. Authors may then submit a revised version of their work by addressing those needs by the revision deadline for that specific round. At that point, the paper will be re-reviewed to judge whether it addresses the requirements requested; this review will be conducted, to the extent possible, by the same reviewers as earlier."
-    - item: "Only papers in the research and experimentation/deployment track will be eligible for one-shot revision.  Big ideas papers are not eligible to receive a revise/resubmit decision; they may be shepherded prior to acceptance."
+    - item: 'Once-per-year submission: '
+      info: A research article may be submitted to ACM Middleware only once in a single year. Submissions that are rejected in the 1st Round (Fall Submission) of ACM Middleware 2021 research track are <b>NOT ELIGIBLE</b> for submission to the 2nd Round (Spring Submission) of ACM Middleware 2021. Papers submitted to any deadline (Round 1 or Round 2) <b>ARE ELIGIBLE</b> for submission to Middleware 2022 (Fall/Spring  deadlines).
+    - item: 'One-shot revision: '
+      info: A limited set of papers in each round will be given the option of a one-shot revision. Such a revision decision will include a summary of the paper's merits and a list of necessary changes that are required for the paper to be accepted at Middleware. Authors may then submit a revised version of their work by addressing those needs by the revision deadline for that specific round. At that point, the paper will be re-reviewed to judge whether it addresses the requirements requested; this review will be conducted, to the extent possible, by the same reviewers as earlier.
+    - info: "Only papers in the research and experimentation/deployment track will be eligible for one-shot revision.  Big ideas papers are not eligible to receive a revise/resubmit decision; they may be shepherded prior to acceptance."
 
 submission:
   title: "Submission Guidelines"
