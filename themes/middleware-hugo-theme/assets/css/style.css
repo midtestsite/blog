@@ -93,7 +93,7 @@ ul {
 
 li {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 .fz-20{
@@ -903,6 +903,17 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 300px;
   background-color: #ff432e;
+}
+
+.default-ul
+{
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 30px;
 }
 
 #contact-box {
