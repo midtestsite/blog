@@ -83,7 +83,7 @@ theme = "middleware-hugo-theme"
       weight = 6
       name = "Call for Doctoral Symposium"
       parent = "CALLS"
-      url = "/"
+      url = "/call-for-doctoral-symposium"
 
     [[Languages.en.menu.header]]
     weight = 3
