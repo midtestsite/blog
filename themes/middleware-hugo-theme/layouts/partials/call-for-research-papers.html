@@ -29,13 +29,13 @@
             <div>
               <h4>{{ $data.callforresearchpapers.importantDates.firstRoundTitle }}</h4>
               {{ range $data.callforresearchpapers.importantDates.firstRoundDates }}
-                <li>{{ .event }}<b>{{ .date }}</b></li>
+                <li>{{ .event }}<b>{{ .date | markdownify }}</b></li>
               {{ end }}
             </div>
             <div>
               <h4>{{ $data.callforresearchpapers.importantDates.secondRoundTitle }}</h4>
               {{ range $data.callforresearchpapers.importantDates.secondRoundDates }}
-                <li>{{ .event }}<b>{{ .date }}</b></li>
+                <li>{{ .event }}<b>{{ .date | markdownify }}</b></li>
               {{ end }}
             </div>
           </div>

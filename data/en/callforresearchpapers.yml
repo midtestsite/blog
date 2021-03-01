@@ -43,15 +43,15 @@ importantDates:
   firstRoundTitle: 'First Round: Fall/Winter deadline:'
   firstRoundDates:
     - event: 'Abstract Submission Deadline: '
-      date: November 20, 2020
+      date: <del>November 20, 2020</del>
     - event: 'Full paper submissions due: '
-      date: December 1, 2020
+      date: <del>December 1, 2020</del>
     - event: 'Notification to authors (Accept/ Accept minor-revision/ Revise/ Reject): '
-      date: February 28, 2021
+      date: <del>February 28</del> March 3, 2021
     - event: 'Revised submissions due: '
-      date: April 2, 2021
+      date: <del>April 2</del> April 5, 2021
     - event: 'Notifications of decisions of revised papers (Accept/Reject): '
-      date: April 22, 2021
+      date: <del>April 22</del> April 30, 2021
     - event: 'Final paper files (camera ready copy) due: '
       date: May 2, 2021
 
