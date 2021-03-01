@@ -5,10 +5,10 @@ events:
 
   eventsList1:
     - event : Abstract Submission
-      date :  November 20th, 2020
+      date :  <del>November 20th, 2020</del>
 
     - event : Full Paper Submission
-      date :  December 1st, 2020
+      date :  <del>December 1st, 2020</del>
 
     - event : Author Notification
       date :  February 28th, 2021
