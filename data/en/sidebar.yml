@@ -1,7 +1,8 @@
 events:
   enable : true
-  title1 : FIRST CYCLE
-  title2 : SECOND CYCLE
+  title1 : FIRST RESEARCH TRACK CYCLE
+  title2 : SECOND RESEARCH TRACK CYCLE
+  title3 : OTHER TRACKS
 
   eventsList1:
     - event : Abstract Submission
@@ -11,13 +12,13 @@ events:
       date :  <del>December 1st, 2020</del>
 
     - event : Author Notification
-      date :  February 28th, 2021
+      date :  <del>February 28th</del> March 3rd, 2021
 
     - event : Revised Submissions
-      date :  April 2nd, 2021
+      date :  <del>April 2nd</del> April 5th, 2021
 
     - event : Notifications of Decisions of Revised Papers
-      date :  April 22nd, 2021
+      date :  <del>April 22nd</del> April 30th, 2021
 
   eventsList2:
 
@@ -37,6 +38,11 @@ events:
       date :  September 30th, 2021
 
   eventsList3:
+
+    - event : Doctoral Symposium Submission
+      date :  September 15th, 2021
+
+  eventsList4:
 
     - event : Conference
       date : December 6th--10th, 2021

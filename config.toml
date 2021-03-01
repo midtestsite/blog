@@ -109,18 +109,24 @@ theme = "middleware-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 1
+      name = "Important Dates"
+      parent = "CONFERENCE INFO"
+      url = "/important-dates"
+
+      [[Languages.en.menu.header]]
+      weight = 2
       name = "Venue Information"
       parent = "CONFERENCE INFO"
       url = "/"
 
       [[Languages.en.menu.header]]
-      weight = 2
+      weight = 3
       name = "Accommodation"
       parent = "CONFERENCE INFO"
       url = "/"
 
       [[Languages.en.menu.header]]
-      weight = 3
+      weight = 4
       name = "Visa Information"
       parent = "CONFERENCE INFO"
       url = "/"
