@@ -911,7 +911,18 @@ font header .navbar-default .navbar-nav li a:hover {
   display: block;
   list-style-type: disc;
   margin-top: 1em;
-  margin-bottom: 1 em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 30px;
+}
+
+.default-ul-circle
+{
+  display: block;
+  list-style-type: circle;
+  margin-top: 1em;
+  margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   padding-left: 30px;

@@ -59,7 +59,7 @@ theme = "middleware-hugo-theme"
       weight = 2
       name = "Call for Industry Papers"
       parent = "CALLS"
-      url = "/"
+      url = "/call-for-industry-papers"
 
       [[Languages.en.menu.header]]
       weight = 3

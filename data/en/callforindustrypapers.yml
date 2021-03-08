@@ -1,0 +1,40 @@
+pageTitle: CALL FOR INDUSTRY PAPERS
+
+importantDates:
+  - event: Abstract Submission
+    date: May 15, 2021
+  - event: Full Paper Submission
+    date: May 22, 2021
+  - event: Author Notification
+    date: August 15, 2021
+  - event: Camera Ready Deadline
+    date: September 30, 2021
+
+topics:
+  catA: Experience reports and measurements relating to
+  listA:
+    - li: Deployments of Internet-scale environments, including grids, data centers, and other large-scale systems
+    - li: Cloud computing middleware, for Infrastructure/Platform/Application as a Service Quality of service, quality of user experience
+    - li: Scalability issues (e.g., observed real-life workloads and applications)
+    - li: Reliability and availability issues (observed real-life faults, fault models, and recovery mechanisms)
+    - li: Security issues (e.g., real attacks on deployed platforms and their impacts)
+    - li: Middleware in big data and machine learning systems and applications
+    - li: Deployments of embedded systems, sensor networks and Internet of Things
+    - li: Deployments of blockchain-based middleware and applications
+    - li: AI, accelerators for deep learning, and use cases leveraging it, such as self-driving cars and others
+  catB: Approaches, mechanisms and tools for
+  listB:
+    - li: Real-life deployment, e.g., hardware equipment management (installation, updates, replacement), management of data center buildings, network points of presence, “data center in-a- box”
+    - li: DevOps, continuous software development, integration, and delivery
+    - li: Resource management and analysis, e.g. autoscaling and scheduling
+    - li: Operation and maintenance, e.g., install and upgrade, bug fixes, configurations and backup
+    - li: Runtime management, e.g., monitoring, alerting, troubleshooting, and remediation
+    - li: Economic, energy-aware, and environmental analyses (e.g. cost and/or energy impacts of various data center deployment models)
+    - li: Security management, e.g., intrusion detection, and key management
+
+guide:
+  - paragraph: A submission must be a single PDF file conforming to the formatting instructions of the ACM SIGPLAN style, which can be found on the <a href="https://www.acm.org/publications/proceedings-template" target="_blank">ACM template page</a>, and must not exceed 6 pages (including abstract, figures, tables, and appendices, but excluding references). The font size has to be set to 10pt. Submissions that do not adhere to these guidelines or that violate formatting will be declined without review. Reviewing is single-blind; papers must include author names and affiliations. Authors are required to add “(industry track)” at the end of their paper title.
+  - paragraph: Each submission will be reviewed by at least three members of the Industrial Track Program Committee. Submissions will be evaluated on the basis of originality, importance of contribution, technical soundness, evaluation, quality of presentation and appropriate comparison to related work. The committee as a whole will make final decisions about which submissions to accept for presentation at the conference.
+  - paragraph: Simultaneous submission of the same work to multiple venues, submission of previously published work, or plagiarism constitutes dishonesty or fraud. The conference organizers, like those of other scientific conferences and journals, prohibit these practices and may take actions against authors who have committed them. Papers accompanied by nondisclosure agreement forms will not be considered. If you are uncertain whether your submission meets the guidelines, please contact the program co-chairs.
+  - paragraph: By submitting a paper, you agree that at least one of the authors will attend the conference and present the paper in person.
+  - paragraph: Please submit papers to <a href="https://middleware21industrial.hotcrp.com/" target="_blank">HotCRP</a>.

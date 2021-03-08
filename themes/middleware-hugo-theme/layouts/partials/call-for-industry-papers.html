@@ -1,0 +1,54 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "call-for-industry-papers">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div>
+            <h1>{{ $data.callforindustrypapers.pageTitle }}</h1>
+            <p align="justify">The annual ACM/IFIP Middleware conference is a major forum for the discussion of innovations and recent advances in the design, construction and use of middleware systems. The Industrial Track of the Middleware 2021 Conference solicits 6-page papers for presentation during the main conference (single track) and inclusion in the ACM Digital Library. The topics of interest are similar to those in the general conference call for papers. However, the purpose of the Industrial Track is to emphasize the practical issues, observations, and measurements of “real-world” systems and applications and to disseminate information of particular interest to middleware researchers, architects, developers and administrators.</p>
+          </div>
+          <div>
+            <h1>IMPORTANT DATES</h1>
+            {{ range $data.callforindustrypapers.importantDates }}
+            <ul class="default-ul">
+              <li align="justify">{{ .event }}: <b>{{ .date }}</b></li>
+            </ul>
+            {{ end }}
+          </div>
+          <div>
+            <h1>TOPICS</h1>
+            <p align="justify">The topics of the industry track include, but are not limited to:</p>
+            <ul class="default-ul">
+              <li>{{ $data.callforindustrypapers.topics.catA }}
+                <ul class="default-ul-circle">
+                  {{ range $data.callforindustrypapers.topics.listA }}
+                    <li>{{ .li }}</li>
+                  {{ end }}
+                </ul>
+              </li>
+            </ul>
+            <ul class="default-ul">
+              <li>{{ $data.callforindustrypapers.topics.catB }}
+                <ul class="default-ul-circle">
+                  {{ range $data.callforindustrypapers.topics.listB }}
+                    <li>{{ .li }}</li>
+                  {{ end }}
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1>SUBMISSION GUIDELINES</h1>
+            {{ range $data.callforindustrypapers.guide }}
+            <p align="justify">{{ .paragraph | markdownify }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

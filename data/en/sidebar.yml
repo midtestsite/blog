@@ -42,6 +42,12 @@ events:
     - event : Doctoral Symposium Submission
       date :  September 15th, 2021
 
+    - event : Industry Track Abstract Submission
+      date :  May 15th, 2021
+
+    - event : Industry Track Full Paper Submission
+      date :  May 22nd, 2021
+
   eventsList4:
 
     - event : Conference
