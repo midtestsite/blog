@@ -1,0 +1,39 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "call-for-tutorials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div>
+            <h1>{{ $data.callfortutorials.pageTitle }}</h1>
+            <p align="justify">The organizing committee of MIDDLEWARE 2021, 22<sup>nd</sup> ACM/IFIP International Conference, invites proposals for the tutorial program to be held on December 6<sup>th</sup> &ndash; 10<sup>th</sup> 2021.</p>
+            <p align="justify">The tutorials should target one of the following objectives:</p>
+            <ol>
+              {{ range $data.callfortutorials.objectives }}
+              <li align="justify">{{ .text }}</li>
+              {{ end }}
+            </ol>
+            <p align="justify">Topic areas of interest are described in the conference call (see <a href="https://middleware-conf.github.io/2021/" target="_blank">Middleware 2021 (middleware-conf.github.io)</a>. Tutorials will be half day long.</p>
+          </div>
+          <div>
+            <h1>SUBMISSION REQUIREMENTS</h1>
+            <p align="justify">Tutorial proposal should be sent to the Tutorial chair. The proposal should be two to three pages in length. It should include:</p>
+            <ol>
+              {{ range $data.callfortutorials.submission }}
+              <li align="justify">{{ .text }}</li>
+              {{ end }}
+            </ol>
+            <p align="justify">The evaluation criteria are: the level of interest to a substantial number of attendees (scientific and technical interest of the topics), the quality of the proposals (well-structured and motivated proposals), the expertise and skills of the presenters. </p>
+          </div>
+          <div>
+            <h1>SUBMISSIONS AND INQUIRIES</h1>
+            <p align="justify">Tutorial proposals and inquiries should be sent by email to the Tutorial chair: <a href="mailto:{{ $data.callfortutorials.chair.email }}">{{ $data.callfortutorials.chair.email }}</a></p>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

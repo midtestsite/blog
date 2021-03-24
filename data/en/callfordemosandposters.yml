@@ -1,0 +1,35 @@
+pageTitle: CALL FOR DEMOS AND POSTERS
+
+texts:
+  - text : 'Middleware 2021 will provide a forum for live software demonstrations of middleware applications, systems, and tools. Demos could take a wide and open-ended variety of forms. Typical examples include: (i) presentation of an application that leverages advanced middleware concepts, (ii) working through coding of an example on a novel middleware platform, or (iii) real-time visualizations of middleware system metrics under simulated workloads. Although the form may vary, demo presenters should take advantage of not being constrained by the format of a traditional slide presentation. Demos are encouraged for both early prototypes and mature technology.'
+  - text : 'Posters will provide an opportunity for conference attendees to learn about innovative work in progress and to preview late-breaking research results. Poster sessions will provide an informal setting for presenters to communicate ideas & results, as well as to collect feedback from attendees.'
+  - text : 'Demo or poster contributions are solicited in all areas of middleware research and applications. For a list of applicable topics, please consider the full list of them in the call for papers of the main conference.'
+
+importantDates:
+  - event: Submission
+    date: Friday, October 1, 2021
+  - event: Notification
+    date: Friday, October 15, 2021
+  - event: Camera Ready Deadline
+    date: Monday, November 1, 2021
+
+demo:
+  - text : 'Title of the demo (including beginning with "Demo Abstract:"),'
+  - text : 'Authors, affiliation, and contact information,'
+  - text : 'Description of the problems addressed,'
+  - text : 'Research and technical approach,'
+  - text : 'Related work with bibliography.'
+
+poster:
+  - text : 'Title of the poster (beginning with "Poster Abstract:"),'
+  - text : 'Authors, affiliation, and contact information,'
+  - text : 'Description of the problems addressed,'
+  - text : 'Research and technical approach,'
+  - text : 'Any preliminary results,'
+  - text : 'Related work with bibliography.'
+
+chairs:
+  - person: Paolo Bellavista, University of Bologna, Italy
+    email: paolo.bellavista@unibo.it
+  - person: Ruidong Li, Kanazawa University, Japan
+    email: lrd@se.kanazawa-u.ac.jp

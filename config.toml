@@ -65,7 +65,7 @@ theme = "middleware-hugo-theme"
       weight = 3
       name = "Call for Tutorials"
       parent = "CALLS"
-      url = "/"
+      url = "/call-for-tutorials"
 
       [[Languages.en.menu.header]]
       weight = 4
@@ -75,9 +75,9 @@ theme = "middleware-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 5
-      name = "Call for Posters and Demos"
+      name = "Call for Demos and Posters"
       parent = "CALLS"
-      url = "/"
+      url = "/call-for-demos-and-posters"
 
       [[Languages.en.menu.header]]
       weight = 6
@@ -198,7 +198,7 @@ theme = "middleware-hugo-theme"
     enable = true
     title = "MIDDLEWARE 2021"
     subtitle = "22nd ACM/IFIP International Conference"
-    date = "6th &ndash; 10th December 2021"
+    date = "6<sup>th</sup> &ndash; 10<sup>th</sup> December 2021"
     place = "Fairmont Le Château Frontenac<br>Québec City, Québec, Canada"
     bgImage = "img/Quebec.jpg"
     bgImageAlt = "img/Quebec.jpg"

@@ -1,0 +1,18 @@
+pageTitle: CALL FOR TUTORIALS
+
+objectives:
+  - text : Present the most current and innovative research related to Middleware 2021 topics of interest
+  - text : Survey area of research or practice relevant to Middleware systems with the focus on the design, development and validation of distributed systems, platforms and architectures for computing, storage and communication
+  - text : Describe and motivate research topic of emerging importance related to middleware systems
+  - text : Provide training in well-established methodologies and practices for designing and using middleware systems
+
+submission:
+  - text : Title of the tutorial
+  - text : A detailed outline of the tutorial
+  - text : The potential target audience and prerequisite knowledge
+  - text : A short description of the tutorial for the Workshop registration brochure
+  - text : A resume of the presenter(s) which should include name and email address, background in the tutorial research area/topic, sample(s) of work in the research area/topic, prior tutorials delivered by the presenters (if any) and evidence of teaching experience.
+
+
+chair:
+    email: Nadjia.kara@etsmtl.ca

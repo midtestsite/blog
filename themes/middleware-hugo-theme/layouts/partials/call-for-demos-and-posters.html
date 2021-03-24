@@ -1,0 +1,62 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "call-for-demos-and-posters">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div>
+            <h1>{{ $data.callfordemosandposters.pageTitle }}</h1>
+            {{ range $data.callfordemosandposters.texts }}
+            <p align="justify">{{ .text }}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h1>IMPORTANT DATES</h1>
+            {{ range $data.callfordemosandposters.importantDates }}
+            <ul class="default-ul">
+              <li align="justify">{{ .event }}: <b>{{ .date }}</b></li>
+            </ul>
+            {{ end }}
+          </div>
+          <div>
+            <p align="justify">Submit your posters and demos through <a href="https://middleware21posters.hotcrp.com/" target="_blank">HotCRP</a>. Detailed instructions for posters papers and demos submissions are listed below.</p>
+            <p align="justify">The authors of accepted demos and posters must prepare a single slide that provides an overview of their work which will be presented during the "1-minute madness" session that precedes the demo and poster session.</p>
+            <p align="justify">Accepted Demos and Posters papers will be included in the Middleware 2021 conference proceedings that will be published in the ACM Digital Library. The official publication date will be the date the proceedings are made available in the ACM Digital Library, which may be up to two weeks prior to the first day of the Middleware conference. Note that the official publication date affects the deadline for any patent filings related to published work.</p>
+          </div>
+          <div>
+            <h1>DEMO SUBMISSIONS</h1>
+            <p align="justify">Submissions describing live demos should be at most 3 pages PDF using the ACM SIGPLAN style, which can be found on the <a href="https://www.acm.org/publications/proceedings-template" target="_blank">ACM template page</a>. <b>The font size has to be set to 10pt</b>. The first two pages will include a description of the demo that will be included in the Middleware proceedings. The last page will outline aspects of the demo that will be considered during evaluation, but will not appear in the proceedings.</p>
+            <p align="justify">Pages 1 and 2 should include the following:</p>
+            {{ range $data.callfordemosandposters.demo }}
+            <ul class="default-ul">
+              <li>{{ .text }}</li>
+            </ul>
+            {{ end }}
+            <p align="justify">Page 3 should contain any additional information that will be used only to evaluate your demonstration proposal: it will not be part of the proceedings. For example, you may detail what you will show during the demo, provide links to additional online material related to your demo, e.g., videos, etc. You may also use this space to outline any special requirements you will have for the demonstration, e.g., unusual space needs, exclusive access to a wireless channel, etc. The format of this page is at your discretion.</p>
+          </div>
+          <div>
+            <h1>POSTER SUBMISSIONS</h1>
+            <p align="justify">Submissions describing posters should be at most 2 pages PDF using the ACM SIGPLAN style, which can be found on the <a href="https://www.acm.org/publications/proceedings-template" target="_blank">ACM template page</a>. <b>The font size has to be set to 10pt</b>.</p>
+            <p align="justify">The submission should include:</p>
+            {{ range $data.callfordemosandposters.poster }}
+            <ul class="default-ul">
+              <li>{{ .text }}</li>
+            </ul>
+            {{ end }}
+          </div>
+          <div>
+            <p align="justify">If you have questions or encounter any problems, please notify the Demo and Poster chairs:</p>
+            {{ range $data.callfordemosandposters.chairs }}
+            <ul class="default-ul">
+              <li>{{ .person }}: <a href="mailto:{{ .email }}">{{ .email }}</a></li>
+            </ul>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

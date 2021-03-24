@@ -1482,6 +1482,10 @@ px      68    160    252    344    436    */
   margin-bottom: 30px;
 }
 
+.mt-20{
+  margin-top: 20px;
+}
+
 .font-weight-regular{
   font-weight: 400;
 }

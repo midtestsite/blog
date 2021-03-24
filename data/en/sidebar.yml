@@ -48,10 +48,13 @@ events:
     - event : Doctoral Symposium Submission
       date :  September 15th, 2021
 
+    - event : Demo & Poster Submission
+      date :  October 1st, 2021
+
   eventsList4:
 
     - event : Conference
-      date : December 6th--10th, 2021
+      date : December 6th -- 10th, 2021
 
 
 
