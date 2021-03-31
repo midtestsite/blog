@@ -71,7 +71,7 @@ theme = "middleware-hugo-theme"
       weight = 4
       name = "Call for Workshops"
       parent = "CALLS"
-      url = "/"
+      url = "/call-for-workshops"
 
       [[Languages.en.menu.header]]
       weight = 5

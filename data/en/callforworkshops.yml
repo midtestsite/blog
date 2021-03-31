@@ -1,0 +1,24 @@
+pageTitle: CALL FOR WORKSHOPS
+
+importantDates:
+  - event: (AoE) Workshop proposal submission
+    date: May 21, 2021
+  - event: Workshop proposal acceptance notification
+    date: June 4, 2021
+  - event: Workshop website and CFP online
+    date: June 18, 2021
+  - event: Workshop paper submission (approximate)
+    date: August 31, 2021
+  - event: Workshop paper notification (approximate)
+    date: September 30, 2021
+
+submission:
+  - li: the title of the workshop;
+  - li: the names, affiliations and e-mail addresses of the organizing committee;
+  - li: a brief technical description of the workshop topic area;
+  - li: the history of the workshop, if applicable;
+  - li: a short description of the intended format of the workshop (keynote speakers, discussions, etc.);
+  - li: a description of the intended review process;
+  - li: tentative workshop paper submission and notification deadlines;
+  - li: a brief statement of the relevance of the workshop to Middleware;
+  - li: a preliminary list of PC members that have accepted to participate in the committee.
