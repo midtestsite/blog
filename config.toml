@@ -102,6 +102,12 @@ theme = "middleware-hugo-theme"
         parent = "COMMITTEE"
         url = "/program-committee"
 
+        [[Languages.en.menu.header]]
+        weight = 3
+        name = "Industry Track PC"
+        parent = "COMMITTEE"
+        url = "/industry-pc"
+
     [[Languages.en.menu.header]]
     weight = 4
     name = "CONFERENCE INFO"
