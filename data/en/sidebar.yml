@@ -1,10 +1,10 @@
 events:
   enable : true
-  title1 : FIRST RESEARCH TRACK CYCLE
-  title2 : SECOND RESEARCH TRACK CYCLE
-  title3 : OTHER TRACKS
+  title3 : FIRST RESEARCH TRACK CYCLE
+  title1 : SECOND RESEARCH TRACK CYCLE
+  title2 : OTHER TRACKS
 
-  eventsList1:
+  eventsList3:
     - event : Abstract Submission
       date :  <del>November 20th, 2020</del>
 
@@ -18,9 +18,9 @@ events:
       date :  <del>April 2nd</del> April 5th, 2021
 
     - event : Notifications of Decisions of Revised Papers
-      date :  <del>April 22nd</del> April 30th, 2021
+      date :  <del>April 30th</del> May 20th, 2021
 
-  eventsList2:
+  eventsList1:
 
     - event : Abstract Submission
       date :  May 15th, 2021
@@ -37,7 +37,7 @@ events:
     - event : Notifications of Decisions of Revised Papers
       date :  September 30th, 2021
 
-  eventsList3:
+  eventsList2:
 
     - event : Industry Track Abstract Submission
       date :  May 15th, 2021
