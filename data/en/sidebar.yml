@@ -20,6 +20,9 @@ events:
     - event : Notifications of Decisions of Revised Papers
       date :  <del>April 30th</del> May 20th, 2021
 
+    - event : Camera Ready
+      date :  May 31st, 2021
+
   eventsList1:
 
     - event : Abstract Submission
@@ -36,6 +39,9 @@ events:
 
     - event : Notifications of Decisions of Revised Papers
       date :  September 30th, 2021
+
+    - event : Camera Ready
+      date :  Will be announced later
 
   eventsList2:
 

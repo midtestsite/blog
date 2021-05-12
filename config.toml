@@ -172,6 +172,12 @@ theme = "middleware-hugo-theme"
       parent = "REGISTRATION"
       url = "/"
 
+      [[Languages.en.menu.header]]
+      weight = 2
+      name = "Camera-Ready Instructions"
+      parent = "REGISTRATION"
+      url = "/camera-ready-instructions"
+
 
     [[Languages.en.menu.header]]
     weight = 7
