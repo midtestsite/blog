@@ -26,10 +26,10 @@ events:
   eventsList1:
 
     - event : Abstract Submission
-      date :  May 15th, 2021
+      date :  <del>May 15th</del> May 22nd, 2021
 
     - event : Full Paper Submission
-      date :  May 22nd, 2021
+      date :  <del>May 22nd</del> June 1st, 2021
 
     - event : Author Notification
       date :  August 15th, 2021
