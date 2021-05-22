@@ -14,7 +14,7 @@
             <h1>IMPORTANT DATES</h1>
             {{ range $data.callforindustrypapers.importantDates }}
             <ul class="default-ul">
-              <li align="justify">{{ .event }}: <b>{{ .date }}</b></li>
+              <li align="justify">{{ .event }}: <b>{{ .date | markdownify }}</b></li>
             </ul>
             {{ end }}
           </div>
