@@ -108,6 +108,12 @@ theme = "middleware-hugo-theme"
         parent = "COMMITTEE"
         url = "/industry-pc"
 
+        [[Languages.en.menu.header]]
+        weight = 4
+        name = "Doctoral Symposium PC"
+        parent = "COMMITTEE"
+        url = "/doctoral-symposium-pc"
+
     [[Languages.en.menu.header]]
     weight = 4
     name = "CONFERENCE INFO"
