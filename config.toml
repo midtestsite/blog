@@ -159,7 +159,7 @@ theme = "middleware-hugo-theme"
       weight = 2
       name = "Keynote Speakers"
       parent = "PROGRAM"
-      url = "/"
+      url = "/keynote-speakers"
 
       [[Languages.en.menu.header]]
       weight = 3

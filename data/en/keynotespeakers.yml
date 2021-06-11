@@ -1,0 +1,21 @@
+title: Keynotes
+
+keynotes:
+  fields:
+    - Speaker : "<b>Raouf Boutaba</b><br>University of Waterloo"
+      Title : "TBD"
+      Info : "<a href=#raouf><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+
+    # - Speaker : "<b>Joelle Pineau</b><br>MILA / McGill / Facebook AI Research"
+    #   Title : "Building Reproducible, Reusable, and Robust Machine Learning Software"
+    #   Info : "<a href=#Joelle><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+
+speaker1:
+  img: '<img src=/2021/img/keynotes/keynote1.jpg width=100% height=auto">'
+  name: "<b>Raouf Boutaba</b>"
+  university: "<b>University of Waterloo</b>"
+  title: "<b>Keynote Title: TBD</b>"
+  absTitle: "<b>Abstract</b>"
+  bioTitle: "<b>Biography</b>"
+  abstract: "TBD"
+  bio: "Raouf Boutaba is a University Chair Professor and Director in the David R. Cheriton School of Computer Science at the University of Waterloo. He also holds the INRIA International Chair in France. He is the founding Editor in Chief of the IEEE Transactions on Network and Service Management (2007-2010), and the current Editor-in- Chief of the IEEE Journal on Selected Areas in Communications (JSAC). His research interests are in the areas of network and service management. He has published extensively in these areas and received several journal and conference Best Paper Awards such as the IEEE 2008 Fred W. Ellersick Prize Paper Award. He also received other recognitions, including the Premier’s Research Excellence Award, Industry research excellence Awards, fellowships of the Faculty of Mathematics, of the David R. Cheriton School of Computer Science and outstanding performance awards at the University of Waterloo. He has also received the IEEE Communications Society Hal Sobol Award and the IFIP Silver Core in 2007, the IEEE Communications Society Joe LociCero and the Dan Stokesbury awards in 2009, the Salah Aidarous award in 2012, the McNaugthon Gold Medal in 2014, the Technical Achievement Award of the IEEE Technical Committee on Information Infrastructure and Networking as well as the Donald W. McLellan Meritorious Service Award in 2016. He served as a distinguished lecturer for the IEEE Computer and Communications Societies. He is fellow of the IEEE, the Engineering Institute of Canada, the Canadian Academy of Engineering, and the Royal Society of Canada."
