@@ -1,19 +1,12 @@
-enable: false
+enable: true
 
 peoples:
-  enable : false
+  enable : true
 people:
   - text: >
       KEYNOTE
-    image: img/speakers/speaker1.jpg
-    name: Tamer Özsu
+    image: /img/keynotes/keynote1.jpg
+    name: Raouf Boutaba
     linkTo: keynote-speakers/
     university: University of Waterloo
-    title: "Title: Streaming Graph Processing and Analytics"
-  - text: >
-      KEYNOTE
-    image: img/speakers/speaker2.jpg
-    name: Joelle Pineau
-    linkTo: keynote-speakers/
-    university: MILA / McGill / Facebook AI Research
-    title: "Building Reproducible, Reusable, and Robust Machine Learning Software"
+    title: "TBD"

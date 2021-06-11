@@ -25,7 +25,7 @@ $(document).ready(function(){
   });
 });
 </script>
-<section id="intro">
+<section id="intro" style="margin-bottom:0px;">
   <div class="container">
     <div class="row">
       <div class="col-md-9 col-sm-12">
@@ -61,7 +61,55 @@ $(document).ready(function(){
             </div>
           </div>
         </div>
-      </div><!-- .col-md-7 close -->
+        {{ $data := index .Site.Data .Site.Language.Lang }}
+        {{ if $data.testimonial.enable }}
+        <!-- Content Start -->
+        <div id="testimonial" style="margin-top:0px; margin-bottom:0px;">
+            <!-- Header -->
+              <div class="section-title text-center">
+                <h2>{{ $data.testimonial.title }}</h2>
+                <p align="justify">{{ $data.testimonial.paragraph }}</p>
+              </div>
+
+              {{ if $data.testimonial.number.enable }}
+              <div class="col-md-6">
+                <div class="block">
+                  <!-- Content -->
+                  <ul class="counter-box clearfix">
+                    {{ range $data.testimonial.numbers }}
+                    <li>
+                      <div class="block">
+                        <i class="{{ .icon }}"></i>
+                        <h4 class="counter" data-count="{{ .counter }}">0</h4>
+                        <span>{{ .text }}</span>
+                      </div>
+                    </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
+              {{ end }}
+              {{ if $data.testimonial.peoples.enable }}
+                <div class="section-title">
+                  <h2>KEYNOTE SPEAKERS</h2>
+                </div>
+                <div class="testimonial-carousel">
+                  <div id="testimonial-slider" class="owl-carousel">
+                    {{ range $data.testimonial.people }}
+                    <div>
+                        <p>{{ .text }}</p>
+                        <div class="user">
+                          <a href="/2021/{{ .linkTo }}"><img src="{{ $.Site.BaseURL }}{{ .image }}" width="20%" alt="Pepole"></a>
+                          <p><span>{{ .name }}</span> <uni>{{ .university }}</uni> <tit><a href="/2021/{{ .linkTo }}">{{ .title }}</a></tit></p>
+                        </div>
+                    </div>
+                    {{ end }}
+                  </div>
+                </div>
+              {{ end }}
+          </div>
+        {{ end }}
+      </div>
       {{ partial "sidebar.html" . }}
     </div>
   </div>

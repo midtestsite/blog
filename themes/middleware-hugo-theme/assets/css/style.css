@@ -464,7 +464,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #testimonial .testimonial-carousel img {
-  padding-bottom: 38px;
+  padding-bottom: 0px;
 }
 
 #testimonial .testimonial-carousel p {
@@ -527,7 +527,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #clients-logo-section {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 
 #clients-logo-section .clients-logo-img {
