@@ -131,24 +131,6 @@ theme = "middleware-hugo-theme"
       parent = "CONFERENCE INFO"
       url = "/workshops"
 
-      [[Languages.en.menu.header]]
-      weight = 3
-      name = "Venue Information"
-      parent = "CONFERENCE INFO"
-      url = "/"
-
-      [[Languages.en.menu.header]]
-      weight = 4
-      name = "Accommodation"
-      parent = "CONFERENCE INFO"
-      url = "/"
-
-      [[Languages.en.menu.header]]
-      weight = 5
-      name = "Visa Information"
-      parent = "CONFERENCE INFO"
-      url = "/"
-
 
     [[Languages.en.menu.header]]
     weight = 5
@@ -223,15 +205,15 @@ theme = "middleware-hugo-theme"
     title = "MIDDLEWARE 2021"
     subtitle = "22nd ACM/IFIP International Conference"
     date = "6<sup>th</sup> &ndash; 10<sup>th</sup> December 2021"
-    place = "Fairmont Le Château Frontenac<br>Québec City, Québec, Canada"
-    bgImage = "img/Quebec.jpg"
-    bgImageAlt = "img/Quebec.jpg"
+    place = "Online-only Conference<br>Québec, Canada"
+    bgImage = "img/ETS.jpg"
+    bgImageAlt = "img/ETS.jpg"
     btnText = "Conference Information"
     url = "#scope"
 
   [Languages.en.params.statement]
     enable = true
-    text = "We are currently planning for a physical conference in Quebec City, scheduled for December 2021. Due to the current pandemic, our plans may change and require a virtual conference. We will provide updates as they become available through our various channels (Website, Twitter, Facebook, LinkedIn). In any case, please note that Middleware 2021 will adopt a 2-cycles submission process, and that the deadline for the 1st cycle submission of research articles is set to the end of November 2020."
+    text = "Due to the current uncertainty surrounding international travel, the Middleware 2021 conference will be held online from December 6th to 10th. This includes all workshops and tracks. More information, including author instructions and conference registration, will be provided on this website and social media as soon as possible."
 
 
   [Languages.en.params.wrapper]

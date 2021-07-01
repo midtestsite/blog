@@ -173,7 +173,7 @@ header .navbar {
 }
 
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 3px;
 }
 
 header .navbar-default {
@@ -221,7 +221,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #5783AF, #002041);
+  background: linear-gradient(to left, #407199, #002041);
   opacity: 0.8;
 }
 
@@ -543,8 +543,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding-top: 160px;
+  padding-bottom: 120px;
   position: relative;
   background-attachment: fixed;
 }
@@ -558,7 +558,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #5783AF, #002041);
+  background: linear-gradient(to left, #407199, #002041);
   opacity: 0.8;
 }
 
