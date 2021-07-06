@@ -1,7 +1,7 @@
 {{ partial "global-header.html" . }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
-<script>
+<!-- <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -26,7 +26,7 @@ $(document).ready(function(){
     } // End if
   });
 });
-</script>
+</script> -->
 <section id = "keynote-speakers">
   <div class="container">
     <div class="row">
@@ -53,7 +53,7 @@ $(document).ready(function(){
               </tbody>
             </table>
             <hr>
-          </div>-->
+          </div> -->
           <div id="raouf" style="margin-top: 70px;">
 
           </div>
@@ -76,6 +76,30 @@ $(document).ready(function(){
               <p>{{ $data.keynotespeakers.speaker1.bioTitle | markdownify }}</p>
               <p align = "justify">{{ $data.keynotespeakers.speaker1.bio | markdownify }}</p>
               <hr>
+              </div>
+          </div>
+
+          <div id="tamar" style="margin-top: 70px;">
+
+          </div>
+          <div>
+            <div>
+              <div class="col-md-3 mb-10">
+                {{ $data.keynotespeakers.speaker2.img | markdownify }}
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="mb-10">
+                <p style="color: #655E7A; font-size:30px;">{{ $data.keynotespeakers.speaker2.name | markdownify }}</p>
+                <p style="font-size:20px;">{{ $data.keynotespeakers.speaker2.university | markdownify }}</p>
+                <p style="font-size:18px;">{{ $data.keynotespeakers.speaker2.title | markdownify }}</p>
+              </div>
+            </div>
+            <div style="margin-bottom:50px;" class="col-md-12">
+              <p>{{ $data.keynotespeakers.speaker2.absTitle | markdownify }}</p>
+              <p align = "justify">{{ $data.keynotespeakers.speaker2.abstract | markdownify }}</p>
+              <p>{{ $data.keynotespeakers.speaker2.bioTitle | markdownify }}</p>
+              <p align = "justify">{{ $data.keynotespeakers.speaker2.bio | markdownify }}</p>
               </div>
           </div>
         </div>

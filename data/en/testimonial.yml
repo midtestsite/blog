@@ -10,3 +10,11 @@ people:
     linkTo: keynote-speakers/
     university: University of Waterloo
     title: "The Cloud to Things Continuum - Infrastructure, Security, and Management"
+
+  - text: >
+      KEYNOTE
+    image: /img/keynotes/Tamar.jpg
+    name: Tamar Eilam
+    linkTo: keynote-speakers/
+    university: IBM Research
+    title: "TBD"
