@@ -7,7 +7,7 @@ keynotes:
       Info : "<a href=#raouf><img src=/2021/img/infoImg.png width=50% margin-top=30px></a>"
 
     - Speaker : "<b>Tamar Eilam</b><br>IBM Research"
-      Title : "TBD"
+      Title : "Is Cloud Good or Bad for the Environment?"
       Info : "<a href=#tamar><img src=/2021/img/infoImg.png width=50% margin-top=30px></a>"
 
 speaker1:
@@ -24,8 +24,9 @@ speaker2:
   img: '<img src=/2021/img/keynotes/Tamar.jpg width=100% height=auto">'
   name: "<b>Tamar Eilam</b>"
   university: "<b>IBM Research</b>"
-  title: "<b>Keynote Title: TBD</b>"
+  title: "<b>Keynote Title: Is Cloud Good or Bad for the Environment?</b>"
   absTitle: "<b>Abstract</b>"
   bioTitle: "<b>Biography</b>"
-  abstract: "TBD"
+  abstract: "Climate change is considered the biggest threat and challenge currently facing humanity. The scientific community have established that failing to keep the global temperature from rising above the upper limit of 1.5 degrees Celsius will have dire consequences, including world hunger, degraded health, and political instability. Attention is increasing to the role that technology plays in relationship with climate change. Some are concerned about the energy consumption toll of technology, and in particular, emerging energy-devouring workloads such as AI. The end of Dennard Scaling implies that new approaches are needed to meet the exponential increase in demand for computation.
+As technologists we have responsibility to improve the efficiency of system, software, and management software. Cloud computing in particular ought to be scrutinized closely. Cloud computing promises efficiency gains, however, third party clouds, despite the PR noise, are yet to adopt openness and clear methodology to enable meaningful quantification of the actual carbon footprint cost of client workloads. New trends, such as the commercialization of renewable energy, and system innovation such as specialized hardware open the door for new research opportunities. I will discuss the challenges and the new research directions in this exciting and important area of sustainable computing and cloud."
   bio: "Dr Tamar Eilam is an IBM Fellow in the IBM T.J. Watson Research Center, in New York. Dr Eilam has twenty years of experience leading innovation in cloud computing. Her recent focus is Cloud and Climate. Specifically, she leads research on the quantification and reduction of carbon footprint associated with cloud workloads through innovation in system, software and management software. Tamar completed her Ph.D. in 2000 in Computer Science in the Technion, Israel, and joined IBM Research as a Research Staff Member that same year. Tamar is the author of numerous award-winning publications and patents, and an experienced international speaker."
