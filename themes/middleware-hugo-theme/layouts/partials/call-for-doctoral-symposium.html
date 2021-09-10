@@ -34,7 +34,7 @@
             <h1>IMPORTANT DATES</h1>
             {{ range $data.callfordoctoralsymposium.importantDates }}
             <ul class="default-ul">
-              <li align="justify">{{ .event }}: <b>{{ .date }}</b></li>
+              <li align="justify">{{ .event }}: <b>{{ .date | markdownify }}</b></li>
             </ul>
             {{ end }}
             <p align="justify"><b>All deadlines are 23:59 AOE</b>.</p>
