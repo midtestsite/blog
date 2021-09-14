@@ -1,0 +1,37 @@
+paperInfo:
+  enable : true
+
+  research:
+    title: Research Track (first cycle)
+    fields:
+      - Number : "1"
+        Title : "Precursor: A Fast, Client-Centric and Trusted Key-Value Store using RDMA and Intel SGX"
+        Author : "Ines Messadi, Shivananda Neumann, Nico Weichbrodt, Lennart Almstedt, Mohammad Mahhouk, Rüdiger Kapitza (TU Braunschweig)"
+
+      - Number : "2"
+        Title : "PProx: Efficient Privacy for Recommendation-as-a-Service"
+        Author : "Guillaume Rosinosky (ICTEAM, UCLouvain); Simon Da Silva (Univ. Bordeaux, CNRS, Bordeaux INP, LaBRI, UMR 5800); Sonia Ben Mokhtar (INSA Lyon, LIRIS, CNRS); Daniel Négru, Laurent Réveillère (Univ. Bordeaux, CNRS, Bordeaux INP, LaBRI, UMR 5800); Etienne Rivière (ICTEAM, UCLouvain)"
+
+      - Number : "3"
+        Title : "FW-KV: Improving Read Guarantees in PSI"
+        Author : "Masoomeh Javidi Kishi, Roberto Palmieri (Lehigh University)"
+
+      - Number : "4"
+        Title : "Towards Optimal Placement and Scheduling of DNN Operations with Pesto"
+        Author : "Ubaid Ullah Hafeez, Xiao Sun, Anshul Gandhi, Zhenhua Liu (Stony Brook University)"
+
+      - Number : "5"
+        Title : "Prosecutor: An Efficient BFT Consensus Algorithm with Behavior-aware Penalization against Byzantine Attacks"
+        Author : "Gengrui Zhang, Hans-Arno Jacobsen (University of Toronto)"
+
+      - Number : "6"
+        Title : "SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing"
+        Author : "Marcin Copik, Grzegorz Kwasniewski, Maciej Besta (ETH Zurich); Michal Podstawski (Future Processing SA); Torsten Hoefler (ETH Zurich)"
+
+      - Number : "7"
+        Title : "Magic-Pipe: Self-optimizing video analytics pipelines"
+        Author : "Giuseppe Coviello, Yi Yang, Kunal Rao, Srimat Chakradhar (NEC Laboratories America Inc.)"
+
+      - Number : "8"
+        Title : "Experience Paper: sgx-dl: Dynamic Loading and Hot-Patching for Secure Applications"
+        Author : "Nico Weichbrodt, Joshua Heinemann, Lennart Almstedt (TU Braunschweig, Germany); Pierre-Louis Aublin (IIJ Innovation Insitute, Japan); Rüdiger Kapitza (TU Braunschweig, Germany)"
