@@ -151,6 +151,12 @@ theme = "middleware-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 3
+      name = "Tutorials"
+      parent = "PROGRAM"
+      url = "/tutorials"
+
+      [[Languages.en.menu.header]]
+      weight = 4
       name = "Accepted Papers"
       parent = "PROGRAM"
       url = "/accepted-papers"
