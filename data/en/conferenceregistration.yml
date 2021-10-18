@@ -1,0 +1,26 @@
+title: Registration
+texts:
+  - text: "Authors should register their paper by <b>October 31<sup>th</sup></b>. If the registration is not received in time, the paper will not be included in the proceedings. It should be one author registration per paper. Everyone else can register for free, including additional authors of the same paper."
+  - text: "To register for the conference, please click <a href = https://cvent.me/xwGWag?RefId=Home target = _blank>here</a>."
+  - text: "<b>Registration Fees</b> (Tax are included. No ACM discounts are offered)"
+
+registrationInfo:
+  enable : true
+
+  registration:
+    - type : Main research track full papers which are 12 pages
+      fee : "200 USD"
+
+    - type : Short Paper (Every other paper including industry papers, which are 6 pages or less in length)
+      fee : "100 USD"
+
+    - type : Participant (Non author or additional author beyond the first registration)
+      fee : "0 USD"
+
+include:
+  title: What is included in the registration
+  texts:
+    - text: "Full conference registrations include participation in the main Middleware program and pre-conference program."
+cancelation:
+  title: Cancellation Policy
+  text: 'Note that no cancellation and no refunds are possible.'
