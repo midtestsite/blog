@@ -11,7 +11,7 @@ registrationInfo:
     - type : Main research track full papers which are 12 pages
       fee : "200 USD"
 
-    - type : Short Paper (Every other paper including industry papers, which are 6 pages or less in length)
+    - type : Short Paper (Every other paper including industry papers and DIDL, which are 6-8 pages or less in length)
       fee : "100 USD"
 
     - type : Participant (Non author or additional author beyond the first registration)
