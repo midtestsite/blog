@@ -18,3 +18,11 @@ people:
     linkTo: keynote-speakers/
     university: IBM Research
     title: "Is Cloud Good or Bad for the Environment?"
+
+  - text: >
+      KEYNOTE
+    image: /img/keynotes/keynote3.png
+    name: Raj Rajkumar
+    linkTo: keynote-speakers/
+    university: Carnegie Mellon University
+    title: "Connected and Autonomous Vehicles as A Grand Challenge for Middleware in Cyber-Physical Systems"

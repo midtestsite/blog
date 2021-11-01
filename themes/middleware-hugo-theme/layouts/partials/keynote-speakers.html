@@ -100,7 +100,32 @@ $(document).ready(function(){
               <p align = "justify">{{ $data.keynotespeakers.speaker2.abstract | markdownify }}</p>
               <p>{{ $data.keynotespeakers.speaker2.bioTitle | markdownify }}</p>
               <p align = "justify">{{ $data.keynotespeakers.speaker2.bio | markdownify }}</p>
+              <hr>
+            </div>
+          </div>
+
+          <div id="#raj" style="margin-top: 70px;">
+
+          </div>
+          <div>
+            <div>
+              <div class="col-md-3 mb-10">
+                {{ $data.keynotespeakers.speaker3.img | markdownify }}
               </div>
+            </div>
+            <div class="col-md-9">
+              <div class="mb-10">
+                <p style="color: #655E7A; font-size:30px;">{{ $data.keynotespeakers.speaker3.name | markdownify }}</p>
+                <p style="font-size:20px;">{{ $data.keynotespeakers.speaker3.university | markdownify }}</p>
+                <p style="font-size:18px;">{{ $data.keynotespeakers.speaker3.title | markdownify }}</p>
+              </div>
+            </div>
+            <div style="margin-bottom:50px;" class="col-md-12">
+              <p>{{ $data.keynotespeakers.speaker3.absTitle | markdownify }}</p>
+              <p align = "justify">{{ $data.keynotespeakers.speaker3.abstract | markdownify }}</p>
+              <p>{{ $data.keynotespeakers.speaker3.bioTitle | markdownify }}</p>
+              <p align = "justify">{{ $data.keynotespeakers.speaker3.bio | markdownify }}</p>
+            </div>
           </div>
         </div>
       </div>
