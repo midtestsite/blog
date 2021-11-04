@@ -35,3 +35,22 @@ paperInfo:
       - Number : "8"
         Title : "Experience Paper: sgx-dl: Dynamic Loading and Hot-Patching for Secure Applications"
         Author : "Nico Weichbrodt, Joshua Heinemann, Lennart Almstedt (TU Braunschweig, Germany); Pierre-Louis Aublin (IIJ Innovation Insitute, Japan); Rüdiger Kapitza (TU Braunschweig, Germany)"
+
+  industry:
+    title: Industry Track
+    fields:
+      - Number : "1"
+        Title : "Authenticated Key-Value Stores with Hardware Enclaves"
+        Author : "Kai Li, Yuzhe Tang (Syracuse University); Qi Zhang (IBM TJ Watson); Jianliang Xu (Hong Kong Baptist University); Jason Chen (Syracuse University)"
+
+      - Number : "2"
+        Title : "The Serverless Shell"
+        Author : "Aurèle Mahéo, Pierre Sutra (Télécom SudParis); Tristan Tarrant (RedHat)"
+
+      - Number : "3"
+        Title : "Polygon: A QUIC-Based CDN Server Selection System Supporting Multiple Resource Demands"
+        Author : "Mengying Zhou, Tiancheng Guo, Yang Chen (Fudan University); Junjie Wan (Huawei Technologies Co. Ltd.); Xin Wang (Fudan University)"
+
+      - Number : "4"
+        Title : "Procedure-driven Deployment Support for the Microservice Era"
+        Author : "Amit Sheoran, Sonia Fahmy (Purdue University); Puneet Sharma (Hewlett Packard Labs); Navin Modi (Purdue University)"
