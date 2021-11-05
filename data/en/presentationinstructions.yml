@@ -1,0 +1,75 @@
+instructions:
+  enable: true
+
+presentation:
+  title: Presentation Instructions
+  text: 'Video submission deadline: November 23rd, 2021 (Please see <a href=#videoSubmission style="color:red">this section</a> for more info)'
+  overview:
+    title: Overview
+    texts:
+      - text: We will give authors the option to present their work live. The duration of talks will be 10 minutes, during which authors should provide an overview of their work, followed by 5 minutes of questions by the audience.
+      - text: Although authors can present their work live, <b>\*all authors\*</b> are required to upload a 20-minute video of their extended talk. The first 10 minutes of the extended-talk video should provide an overview of the authors' work, whereas the remaining 10 minutes can offer in-depth technical details. The first 10 minutes of the extended-talk video will be streamed during the technical session for authors who choose not to present their work live.
+      - text: Irrespective whether the talk is presented live or broadcasted from the recording, <b>at least one author</b> from each paper <b>\*must be present\*</b> to answer questions for the 5 minutes Q&A period.
+      - text: <b>This page</b> contains instructions on how to submit and upload videos. Authors must attend their respective Zoom sessions for the Q&A immediately following their live talk or the broadcast of their video, according to the moderation of the session chair. In addition, dedicated Slack channels for each session will be available throughout the conference to allow for asynchronous discussions and coordinate the sessions.
+  details:
+    title: Details of video files
+    texts:
+      - text : <b>Duration:</b> 20 minutes (10 minute overview + 10 minutes of technical details).
+      - text : <b>File format:</b> .mp4 using the H.264 and AAC codecs following YouTube <a href=https://support.google.com/youtube/answer/1722171?hl=en target = _blank>guidelines</a>.
+      - text : <b>Video quality:</b> at least HD (720p)
+      - text : <b>Audio quality:</b> please verify that your speech is clear before uploading (you may wish to include subtitles)
+  QA:
+    title: "Q&A during the session"
+    texts:
+      - text : 'Authors <b>must attend</b> their respective Zoom sessions for the Q&A immediately following their live talk or the broadcast of their video, according to the moderation of the session chair:'
+      - text : <b>Full papers (12 pages):</b> 5 minutes
+      - text : <b>Short papers (6 pages):</b> 5 minutes
+  content:
+    title: Content of the video recording
+    texts:
+      - text : Authors should treat the video recording as a direct substitute for a physical presence. Thus, the audio should contain a spoken narration of the presentation, and the accompanying video should include a complete walkthrough of the presentation slides. The presenter is also strongly encouraged to overlay a thumbnail-sized camera feed showing the speaker.
+      - text : "For authors presenting live, please add some 2-3 discussion points to your conclusion slide. For those who choose to broadcast their extended-talk video, please include the discussion points right after the first half of your presentation. As the talks are intentionally kept short for the online format, there are likely points not discussed during the presentation, such as technical details or future work. Although you can address these in your extended-talk video, please highlight them after the first half of your presentation to facilitate questions during the Q&A."
+  resources:
+    title: Resources
+    texts:
+      - text : 'We recommend the following resources to record your video:'
+      - text : <a href=https://www.youtube.com/playlist?list=PLsLWHLZB96VeVp3IVzvSH58ttVz_Anr7H target = _blank>ASPLOS 2020 YouTube Channel:</a> Example conference presentation videos.
+      - text : <a href=https://medium.com/sigchi/a-remote-video-presentation-guide-93957c63aa7a target = _blank>Remove Video Presentation Guide:</a> Guide for recording presentations with slides and camera overlay.
+      - text : <a href=https://people.clarkson.edu/~jmatthew/acm/VirtualConferences_GuideToBestPractices_CURRENT.pdf target = _blank>Guide to Best Practices:</a> Section 3.2 from this ACM guide presents some suggestions of equipment to use.
+      - text : '<a href=https://obsproject.com/ target = _blank>Open Broadcaster Software</a> is an open-source software for recording videos: scenes can be created which compose the computer screen with a camera feed.'
+      - text : <a href=https://zoom.us/ target = _blank>Zoom</a> provides a simple method for recording videos by simply starting a meeting in solitaire, opening the camera and sharing the screen.
+      - text : PowerPoint also provides a mechanism for recording slides.
+      - text : Do not hesitate to contact the chairs of your respective track and the general chairs if you have any questions.
+
+videoSubmission:
+  title: Video Submission Instructions
+  text:  <b>Video submission deadline:</b> November 23rd, 2021 (middlewareconf@gmail.com)
+  list:
+    - elem: Sign in to <a href=https://www.youtube.com/ target = _blank>YouTube</a>.
+    - elem: 'At the top right corner, select the Create video or more button -> Upload Video as shown in the following figure:<br><img src=/2021/img/youtube.png width=90%>'
+    - elem: Select the video file you would like to upload.
+    - elem: "While your video is being processed, click on “Details” of the video to fill in information. Your video title should be in the following format: <b>TITLE (ACM Middleware 2021)</b>. Note that the title should contain the <b>prefix</b> according to the camera-ready instructions."
+    - elem: "In the description section, please include the track (Research, Industry, ...), paper ID (which can be found from HotCRP), and the authors' names."
+    - elem: 'Under visibility, please select “Unlisted” or “Public”. The difference is that the YouTube search engine will index an unlisted video. Click <b>“Save”</b> once done.'
+    - elem: 'You can optionally go to the “Subtitles” section to manually enter subtitles for your video, which will be displayed during the live broadcast. <b>Please ensure the subtitles are accurate.</b>'
+    - elem: Once your video is available, please copy the link by viewing the video page on YouTube and sharing its link.
+  instructions:
+    title: Instructions for Emailing Your Youtube Video Link
+    text: <b>Please send the video link by email to the Middleware organizers according to the following instructions:</b>
+    orderList:
+      - elem: "Email subject must be titled with your paper ID # and the presenter's last name:"
+      - elem: '<b>Middleware 2021 Video Link: PAPERID#_PRESENTER-LASTNAME</b>'
+      - elem: 'Email body should contain:'
+    unorderList:
+      - elem : Paper ID and track
+      - elem : YouTube video link
+      - elem : Name of the speaker in the video
+      - elem : A short 3-4 lines biography of the speaker
+    texts:
+      - text : 'Below is a sample format for the email:'
+      - text : '<b>Title: “Middleware 2021 Video Link: 1_DOE”</b>'
+      - text : '<b>Paper ID and Track:</b> #1, Research track'
+      - text : 'Video Link: https://youtu.be/a1b2c3def_g (or https://www.youtube.com/watch?v=a1b2c3def_g)'
+      - text : <b>Presenter Full Name:</b> John Doe
+      - text : <b>Presenter Bio:</b> Lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum.
+      - text : 'The above email should be sent to: <b>middlewareconf@gmail.com</b> by <b>November 23rd, 2021</b>. If you have any difficulty following these instructions, please immediately contact your track chairs or the general chairs.'

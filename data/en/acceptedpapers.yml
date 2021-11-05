@@ -54,3 +54,50 @@ paperInfo:
       - Number : "4"
         Title : "Procedure-driven Deployment Support for the Microservice Era"
         Author : "Amit Sheoran, Sonia Fahmy (Purdue University); Puneet Sharma (Hewlett Packard Labs); Navin Modi (Purdue University)"
+
+  DS:
+    title: Doctoral Symposium Track
+    fields:
+      - Number : "1"
+        Title : "Config 2.0: Towards Reinforcement Learning Based Configuration of Stream Processing Systems"
+        Author : "Jawad	Tahir (Technische Universität München)"
+
+      - Number : "2"
+        Title : "AutoML: Towards Automation of Machine Learning Systems Maintainability"
+        Author : "Lorena Poenaru-Olaru (TU Delft)"
+
+      - Number : "3"
+        Title : "Multi-Objective Evolutionary Based Feature Selection Supported by Distributed Multi-Label Classification and Deep Learning on Image/Video Data"
+        Author : "Gizem Nur	Karagoz (Tu Delft)"
+
+      - Number : "4"
+        Title : "Efficient Parallel Execution of Block Transactions in Blockchain"
+        Author : "Parwat Singh	Anjana (Department of Computer Science and Engineering, Indian Institute of Technology Hyderabad, Telangana, India)"
+
+      - Number : "5"
+        Title : "OneOS: A Distributed Operating System for the Internet of Things"
+        Author : "Kumseok	Jung (University of British Columbia)"
+
+      - Number : "6"
+        Title : "Non-Relational Multi-Level Caching for Mitigation of Staleness & Stragglers in Distributed Deep Learning"
+        Author : "Aswathy	Ravikumar (VIT University)"
+
+      - Number : "7"
+        Title : "Using Blockchain to provide trusted interoperability to System-of-Systems in Smart Cities context"
+        Author : "Stefano	Loss (Federal University of Rio Grande do Norte)"
+
+      - Number : "8"
+        Title : "Autonomous Resource Management in Distributed Stream Processing Systems"
+        Author : "Pratyush	Agnihotri (Technische Universität Darmstadt)"
+
+      - Number : "9"
+        Title : "Token-Based Incentive Schemes in Decentralized P2P Storage Networks"
+        Author : "Vahid Heidaripour	Lakhani (University of Stavanger)"
+
+      - Number : "10"
+        Title : "Using Blockchain Technology for Software Identity Maintenance"
+        Author : "Andreea-Elena	DrƒÉgnoiu (certSign)"
+
+      - Number : "11"
+        Title : "FlexOS: Easy Specialization of OS Safety Properties"
+        Author : "Hugo Lefeuvre (University of Manchester)"

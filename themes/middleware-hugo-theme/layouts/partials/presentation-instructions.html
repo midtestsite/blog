@@ -1,0 +1,101 @@
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "presentation-instructions">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div>
+            <h1>{{ $data.presentationinstructions.presentation.title }}</h1>
+            <p>{{ $data.presentationinstructions.presentation.text | markdownify }}</p>
+            <h2>{{ $data.presentationinstructions.presentation.overview.title }}</h2>
+            {{ range $data.presentationinstructions.presentation.overview.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.presentationinstructions.presentation.details.title }}</h2>
+            {{ range $data.presentationinstructions.presentation.details.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.presentationinstructions.presentation.QA.title }}</h2>
+            {{ range $data.presentationinstructions.presentation.QA.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.presentationinstructions.presentation.content.title }}</h2>
+            {{ range $data.presentationinstructions.presentation.content.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.presentationinstructions.presentation.resources.title }}</h2>
+            {{ range $data.presentationinstructions.presentation.resources.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div id="videoSubmission">
+
+          </div>
+          <div>
+            <h1>{{ $data.presentationinstructions.videoSubmission.title }}</h1>
+            <p>{{ $data.presentationinstructions.videoSubmission.text | markdownify }}</p>
+            <ol>
+              {{ range $data.presentationinstructions.videoSubmission.list }}
+                <li align = "justify">{{.elem | markdownify}}</li>
+              {{ end }}
+            </ol>
+          </div>
+          <div>
+            <h2>{{ $data.presentationinstructions.videoSubmission.instructions.title }}</h2>
+            <p>{{ $data.presentationinstructions.videoSubmission.instructions.text | markdownify }}</p>
+            <ol>
+              {{ range $data.presentationinstructions.videoSubmission.instructions.orderList }}
+                <li align = "justify">{{.elem | markdownify}}</li>
+              {{ end }}
+              <ul class="default-ul" style="margin-top:0px;">
+                {{ range $data.presentationinstructions.videoSubmission.instructions.unorderList }}
+                  <li align = "justify">{{.elem | markdownify}}</li>
+                {{ end }}
+              </ul>
+            </ol>
+            {{ range $data.presentationinstructions.videoSubmission.instructions.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
