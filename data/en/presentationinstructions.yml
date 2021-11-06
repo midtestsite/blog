@@ -34,7 +34,7 @@ presentation:
     texts:
       - text : 'We recommend the following resources to record your video:'
       - text : <a href=https://www.youtube.com/playlist?list=PLsLWHLZB96VeVp3IVzvSH58ttVz_Anr7H target = _blank>ASPLOS 2020 YouTube Channel:</a> Example conference presentation videos.
-      - text : <a href=https://medium.com/sigchi/a-remote-video-presentation-guide-93957c63aa7a target = _blank>Remove Video Presentation Guide:</a> Guide for recording presentations with slides and camera overlay.
+      - text : <a href=https://medium.com/sigchi/a-remote-video-presentation-guide-93957c63aa7a target = _blank>Remote Video Presentation Guide:</a> Guide for recording presentations with slides and camera overlay.
       - text : <a href=https://people.clarkson.edu/~jmatthew/acm/VirtualConferences_GuideToBestPractices_CURRENT.pdf target = _blank>Guide to Best Practices:</a> Section 3.2 from this ACM guide presents some suggestions of equipment to use.
       - text : '<a href=https://obsproject.com/ target = _blank>Open Broadcaster Software</a> is an open-source software for recording videos: scenes can be created which compose the computer screen with a camera feed.'
       - text : <a href=https://zoom.us/ target = _blank>Zoom</a> provides a simple method for recording videos by simply starting a meeting in solitaire, opening the camera and sharing the screen.
