@@ -36,6 +36,93 @@ paperInfo:
         Title : "Experience Paper: sgx-dl: Dynamic Loading and Hot-Patching for Secure Applications"
         Author : "Nico Weichbrodt, Joshua Heinemann, Lennart Almstedt (TU Braunschweig, Germany); Pierre-Louis Aublin (IIJ Innovation Insitute, Japan); Rüdiger Kapitza (TU Braunschweig, Germany)"
 
+  research2:
+    title: Research Track (second cycle)
+    fields:
+      - Number : "1"
+        Title : "Xar-Trek: Run-time Execution Migration among FPGAs and Heterogeneous-ISA CPUs"
+        Author : "Edson Horta, Ho-Ren Chuang, Naarayanan Rao VSathish (Virginia Tech); Cesar Philippidis (Rasec Tech); Antonio Barbalace (The University of Edinburgh); Pierre Olivier (The University of Manchester); Binoy Ravindran (Virginia Tech)"
+
+      - Number : "2"
+        Title : "SHARC: Improving Adaptive Replacement Cache with Shadow Recency Cache Management"
+        Author : "Xiaoming Du, Cong Li (Intel Corporation)"
+
+      - Number : "3"
+        Title : "Experience Paper: Danaus - Isolation and Efficiency of Container I/O at the Client Side of Network Storage"
+        Author : "Giorgos Kappes, Stergios V. Anastasiadis (University of Ioannina)"
+
+      - Number : "4"
+        Title : "SwitchFlow: Preemptive Multitasking for Deep Learning"
+        Author : "Xiaofeng Wu, Jia Rao (The University of Texas at Arlington); Wei Chen (Nvidia Corporation); Hang Huang (Huazhong University of Science and Technology); Chris Ding (The University of Texas at Arlington); Heng Huang (University of Pittsburgh)"
+
+      - Number : "5"
+        Title : "FaaSTCC: Efficient Transactional Causal Consistency for Serverless Computing"
+        Author : "Taras Lykhenko, Rafael Soares, Luis Rodrigues (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa)"
+
+      - Number : "6"
+        Title : "RamCast: RDMA-based Atomic Multicast"
+        Author : "Long Le Hoang, Mojtaba Eslahi Kelorazi (Università della Svizzera italiana (USI), Switzerland); Paulo Coelho (Federal University of Uberlandia, Brazil); Fernando Pedone (Università della Svizzera italiana (USI), Switzerland)"
+
+      - Number : "7"
+        Title : "Memory at Your Service: Fast Memory Allocation for Latency-critical Services"
+        Author : "Aidi Pi, Junxian Zhao, Shaoqi Wang, Xiaobo Zhou (University of Colorado Colorado Springs)"
+
+      - Number : "8"
+        Title : "Gossip Consensus"
+        Author : "Daniel Cason, Nenad Milosevic (Università della Svizzera italiana (USI), Lugano, Switzerland); Zarko Milosevic (Informal Systems, Toronto, Canada); Fernando Pedone (Università della Svizzera italiana (USI), Lugano, Switzerland)"
+
+      - Number : "9"
+        Title : "Experience Paper: Towards Enhancing Cost Efficiency in Serverless Machine Learning Training . ."
+        Author : "Marc Sánchez- Artigas, Pablo Gimeno Sarroca (Universitat Rovira i Virgili)"
+
+      - Number : "10"
+        Title : "CaT: Content-aware Tracing and Analysis for Distributed Systems"
+        Author : "Tânia Esteves, Francisco Neves, Rui Oliveira, João Paulo (INESC TEC & University of Minho)"
+
+      - Number : "11"
+        Title : "Snarl: Entangled Merkle Trees for Improved File Availability and Storage Utilization"
+        Author : "Racin Nygaard (University of Stavanger); Vero Estrada-Galiñanes (EPFL); Hein Meling (University of Stavanger)"
+
+      - Number : "12"
+        Title : "Sizeless: Predicting the Optimal Size of Serverless Functions"
+        Author : "Simon Eismann, Long Bui, Johannes Grohmann (University of Würzburg); Cristina Abad (Escuela Superior Politecnica del Litoral); Nikolas Herbst (University of Würzburg, Germany); Samuel Kounev (University of Wuerzburg)"
+
+      - Number : "13"
+        Title : "Let’s Wait Awhile: How Temporal Workload Shifting Can Reduce Carbon Emissions in the Cloud"
+        Author : "Philipp Wiesner, Ilja Behnke, Dominik Scheinert (Technische Universität Berlin); Kordian Gontarska (Hasso Plattner Institute, University of Potsdam); Lauritz Thamsen (Technische Universität Berlin)"
+
+      - Number : "14"
+        Title : "Lognroll: Discovering Accurate Log Templates by Iterative Filtering ."
+        Author : "Byungchul Tak (Kyungpook National University); Wook-Shin Han (Pohang University of Science and Technology)"
+
+      - Number : "15"
+        Title : "Privacy Preserving Event based Transaction System in a Decentralized Environment"
+        Author : "Rabimba Karanjai (University Of Houston); Lei Xu (University of Texas Rio Grande Valley); Zhimin Gao (Auburn University at Montgomery); Lin Chen (Texas Tech University); Kaleem Mudabbir (University Of Houston); Weidong Shi (University of Houston)"
+
+      - Number : "16"
+        Title : "YASMIN: a Real-time Middleware for COTS Heterogeneous Platforms"
+        Author : "Benjamin Rouxel (University of Amsterdam); Sebastian Altmeyer (University of Augsburg); Clemens Grelck (University of Amsterdam)"
+
+      - Number : "17"
+        Title : "Implicit Model Specialization through DAG-based Decentralized Federated Learning"
+        Author : "Jossekin Beilharz (Hasso Plattner Institute, University of Potsdam; Charité – Universitätsmedizin Berlin); Bjarne Pfitzner (Hasso Plattner Institute, University of Potsdam); Robert Schmid (Hasso Plattner Institute, University of Potsdam; Charité – Universitätsmedizin Berlin); Paul Geppert, Bernd Arnrich, Andreas Polze (Hasso Plattner Institute, University of Potsdam)"
+
+      - Number : "18"
+        Title : "A Fresh Look at the Architecture and Performance of Contemporary Isolation Platforms"
+        Author : "Vincent van Rijn, Jan S. Rellermeyer (TU Delft)"
+
+      - Number : "19"
+        Title : "Highly-Available and Consistent Group Collaboration at the Edge with Colony"
+        Author : "Ilyas Toumlilt (Sorbonne Université, LIP6, Inria); Pierre Sutra (Télécom SudParis); Marc Shapiro (Sorbonne Université, LIP6, Inria)"
+
+      - Number : "20"
+        Title : "Montsalvat: Intel SGX Shielding for GraalVM Native Images"
+        Author : "Peterson Yuhala, Jämes Ménétrey, Pascal Felber, Valerio Schiavoni (Université de Neuchâtel); Alain Tchana (ENS Lyon/Inria); Gaël Thomas (Télécom SudParis/Institut Polytechnique de Paris); Hugo Guiroux, Jean-Pierre Lozi (Oracle Labs)"
+
+      - Number : "21"
+        Title : "Lachesis: A Middleware for Customizing OS Scheduling of Stream Processing Queries"
+        Author : "Dimitris Palyvos-Giannas (Chalmers University of Technology); Gabriele Mencagli (University of Pisa); Marina Papatriantafilou, Vincenzo Gulisano (Chalmers University of Technology)"
+
   industry:
     title: Industry Track
     fields:

@@ -32,6 +32,28 @@
           </div>
 
           <div>
+            <h1>{{ $data.acceptedpapers.paperInfo.research2.title }}</h1>
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th class="text-center">No.</th>
+                  <th class="text-center">Title</th>
+                  <th class="text-center">Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range $data.acceptedpapers.paperInfo.research2.fields }}
+                <tr>
+                  <td>{{ .Number | markdownify}}</td>
+                  <td style="width:50%">{{ .Title | markdownify}}</td>
+                  <td style="width:50%">{{ .Author | markdownify}}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+
+          <div>
             <h1>{{ $data.acceptedpapers.paperInfo.industry.title }}</h1>
             <table class="table table-bordered table-hover text-center">
               <thead class="bg-gray">
