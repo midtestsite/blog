@@ -101,3 +101,38 @@ paperInfo:
       - Number : "11"
         Title : "FlexOS: Easy Specialization of OS Safety Properties"
         Author : "Hugo Lefeuvre (University of Manchester)"
+
+  DP:
+    title: Demos & Posters Track
+    fields:
+      - Number : "1"
+        Title : "Demo Abstract: Scanflow: An end-to-end Agent-based Autonomic ML Workflow Manager for Clusters"
+        Author : "Peini Liu, Gusseppe Bravo-Rocca, Jordi Guitart (Barcelona Supercomputing Center); Ajay Dholakia, David Ellison, Miroslav Hodak (Lenovo Infrastructure Solutions Group)"
+
+      - Number : "2"
+        Title : "A Zero-Knowledge Proof System for OpenLibra"
+        Author : "Patrick Biel, Shiquan Zhang, Hans-Arno Jacobsen (University of Toronto)"
+
+      - Number : "3"
+        Title : "Poster Abstract: Benchmarking Apache Kafka under Network Faults"
+        Author : "Murtaza Raza, Jawad Tahir (Technische Universität München); Christoph Doblander, Ruben Mayer (Technical University of Munich); Hans-Arno Jacobsen (University of Toronto)"
+
+      - Number : "4"
+        Title : "Demo Abstract: DyMonD: Dynamic Application Monitoring and Service Detection Framework"
+        Author : "Mona Elsaadawy (McGill University, Canada and Ain Shams University, Egypt.); Aaron Lohner, Ruoyu Wang, Jifeng Wang, Bettina Kemme (McGill University, Canada.)"
+
+      - Number : "5"
+        Title : "Demo Abstract: A Milestone for FaaS Pipelines; Object Storage- vs VM-Driven Data Exchange"
+        Author : "Germán T. Eizaguirre, Marc Sánchez-Artigas, Pedro García-López (Universitat Rovira i Virgili)"
+
+      - Number : "6"
+        Title : "Demo Abstract: Benchmarking-as-a-Service for Cloud-hosted DBMS"
+        Author : "Daniel Seybold, Jörg Domaschka (Ulm University)"
+
+      - Number : "7"
+        Title : "Demo Abstract: Bricks: A Configurable Coordination Service with Multiple Consistency Models"
+        Author : "Shuichi Maruyama, Xincheng Yang, Wu-Hon F. Leung (Illinois Institute of Technology)"
+
+      - Number : "8"
+        Title : "Demo Abstract: GNOSIS- Query-Driven Multimodal Event Processing for Unstructured Data Streams"
+        Author : "Piyush Yadav, Dhaval Salwala (Insight Center for Data Analytics, NUI Galway); Bharath Sudharsan (Data Science Institute, National University of Ireland Galway); Edward Curry (Insight Center for Data Analytics, NUI Maynooth)"
