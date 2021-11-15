@@ -1,3 +1,29 @@
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 {{ partial "global-header.html" . }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
@@ -6,6 +32,9 @@
     <div class="row">
       <div class="col-md-9 col-sm-12">
         <div class="block">
+          <div style="margin-top:60px;">
+            <p>Please see <a href=#posterPresentation style="color:red">this section</a> for the instructions on how to preapre your poster.</p>
+          </div>
           <div>
             <h1>{{ $data.callfordemosandposters.pageTitle }}</h1>
             {{ range $data.callfordemosandposters.texts }}
@@ -56,6 +85,15 @@
           </div>
           <div>
             For the camera-ready instructions, please visit the <a href="https://middleware-conf.github.io/2021/camera-ready-instructions/">camera-ready instructions page</a>.
+          </div>
+          <div id="posterPresentation">
+
+          </div>
+          <div>
+            <h1>INSTRUCTIONS ON HOW TO PREPARE YOUR POSTER</h1>
+            <p aligh="justify">Middleware 2021 will use ohyay (https://ohyay.co/) for poster presentations. To ensure that your paper is displayed correctly, you should prepare a single 16:9 PowerPoint slide at the highest quality possible. The slide must be sent in PDF format to middlewareconf@gmail.com <b>by November 23rd</b>.</p>
+            <p aligh="justify">The main page of the poster session will contain information about the available posters organized in rooms. Each author will have their room to present their poster to the attendees. In addition, it is possible to share the screen in case a demo is available.</p>
+            <p aligh="justify">The poster session will take place <b>on Wednesday, December 8th</b>, after the technical sessions, and will last for 2 hours. The weblink to the poster session will remain active once the session completes, so others can watch posters later if they want. Moreover, we will open the ohyay website around one week in advance for authors to practice.</p>
           </div>
           <div>
             <h3 align="justify">The Middleware conference adheres strictly to the <a href="https://www.acm.org/special-interest-groups/volunteer-resources/officers-manual/policy-against-discrimination-and-harassment" target = _blank>ACM policies against discrimination and harassment</a>.</h3>
