@@ -1,3 +1,29 @@
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 {{ partial "global-header.html" . }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
@@ -7,7 +33,10 @@
       <div class="col-md-9 col-sm-12">
         <div class="block">
           <div>
-            <h3>Please see <a href="https://middleware-conf.github.io/2021/presentation-instructions/" style="color:red">this page</a> for the presentation instructions.</h3>
+            <div style="margin-top:60px;">
+              <p>Please see <a href=#presentation style="color:red">this section</a> for the presentation instructions.</p>
+              <p>Please see <a href=#dsProgram style="color:red">this section</a> for the doctoral symposium program.</p>
+            </div>
             <h1>{{ $data.callfordoctoralsymposium.pageTitle }}</h1>
             <p align="justify">The annual ACM/IFIP Middleware conference will include a doctoral symposium, to which all PhD students working on the topics of the Middleware conference are invited to apply. The doctoral symposium will be held prior to the main conference.</p>
             <p align="justify">The goal of the doctoral symposium is to provide a welcoming and supportive environment where PhD students working in related fields can receive feedback, discuss their work, and prepare to get the most out of their participation in the main conference. All participating students will be offered the opportunity to engage with their peers, as well as with senior academic and industrial members of the Middleware community. This will include the feedback of panel members on the day of the symposium and individual meetings with a personal mentor during the conference. The symposium is open to PhD students at any stage of their studies.</p>
@@ -28,7 +57,7 @@
             <p align="justify">Contributions to the Middleware 2021 Doctoral symposium will appear in the proceedings that supplements the main conference proceedings.</p>
             <p align="justify">Accepted position paper will lead to a presentation during the doctoral symposium.</p>
             <ul class="default-ul">
-              <li>Presentation format: use same instructions as the <a href="https://middleware-conf.github.io/2021/presentation-instructions/">main conference</a>.</li>
+              <li>Presentation format: Please see <a href=#presentation style="color:red">this section</a>.</li>
             </ul>
           </div>
           <div>
@@ -48,6 +77,103 @@
             <h1>STUDENT TRAVEL GRANTS</h1>
             <p align="justify">Doctoral students that submit their work to this symposium are strongly encouraged to apply for student travel grants to attend Middleware 2021. Students participating in the doctoral symposium will be given priority for the travel grants.</p>
             <p align="justify">Please see the conference website for more details about the student travel grant.</p>
+          </div>
+          <div id="presentation">
+
+          </div>
+          <div>
+            <h1>{{ $data.callfordoctoralsymposium.presentation.title }}</h1>
+            {{ range $data.callfordoctoralsymposium.presentation.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.callfordoctoralsymposium.presentation.details.title }}</h2>
+            {{ range $data.callfordoctoralsymposium.presentation.details.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.callfordoctoralsymposium.presentation.QA.title }}</h2>
+            {{ range $data.callfordoctoralsymposium.presentation.QA.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.callfordoctoralsymposium.presentation.content.title }}</h2>
+            {{ range $data.callfordoctoralsymposium.presentation.content.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h2>{{ $data.callfordoctoralsymposium.presentation.resources.title }}</h2>
+            {{ range $data.callfordoctoralsymposium.presentation.resources.texts }}
+              <p align = "justify">{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div id="dsProgram">
+
+          </div>
+          <div>
+            <h1>PROGRAM</h1>
+          </div>
+          <div style="overflow-x:auto;">
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th style="width:20%;">Time (EST)</th>
+                  <th style="width:20%;">Time (CET)</th>
+                  <th style="width:60%;">Doctoral Symposium (6th)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th style="width:20%;">(8h50-9h00)</th>
+                  <th style="width:20%;">4:50h-15h00</th>
+                  <th style="width:60%;">DS Opening Ceremony</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(9h00-10h00)</th>
+                  <th style="width:20%;">15h-16h00</th>
+                  <th style="width:60%;"><u>Keynote</u><br>Professor Douglas Schmidt<br>Talk title: TBD</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(10h00-10h30)</th>
+                  <th style="width:20%;">16h-16h30</th>
+                  <th style="width:60%;">Coffee Break</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(10h30-11h30)</th>
+                  <th style="width:20%;">16h30-17h30</th>
+                  <th style="width:60%;"><u>Machine Learning Session</u><br>Session chairs: TBD<br><br>1) Jawad Tahir - "Config 2.0: Towards Reinforcement Learning Based Configuration of Stream Processing Systems"<br>2) Lorena Poenaru-Olaru - "AutoML: Towards Automation of Machine Learning Systems Maintainability"<br>3)Gizem Nur Karagoz - "Multi-Objective Evolutionary Based Feature Selection Supported by Distributed Multi-Label Classification and Deep Learning on Image/Video Data"<br>4) Aswathy Ravikumar - "Non-Relational Multi-Level Caching for Mitigation of Staleness & Stragglers in Distributed Deep Learning"<br><br>10 minute each – Followed by a joint discussion in a Q/A  session</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(11h30-13h00)</th>
+                  <th style="width:20%;">17h40-19h00</th>
+                  <th style="width:60%;">Lunch</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(13h00~14h00)</th>
+                  <th style="width:20%;">19h00~20h00</th>
+                  <th style="width:60%;"><u>Systems Session</u><br>Session chairs: TBD<br><br>1) Kumseok Jung - "OneOS: A Distributed Operating System for the Internet of Things"<br>2) Pratyush Agnihotri - "Autonomous Resource Management in Distributed Stream Processing Systems"<br>3) Hugo Lefeuvre - "FlexOS: Easy Specialization of OS Safety Properties"<br><br>10 minute each – Followed by a joint discussion in a Q/A  session</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(14h00-14h15)</th>
+                  <th style="width:20%;">20h00-20h15</th>
+                  <th style="width:60%;">Coffee Break</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(14h15 - 15h15)</th>
+                  <th style="width:20%;">20h15-21h15</th>
+                  <th style="width:60%;"><u>Blockchains Session</u><br>Session chairs: TBD<br><br>1) Stefano Loss - "Using Blockchain to provide trusted interoperability to System-of-Systems in Smart Cities context"<br>2) JaVahid Heidaripour Lakhani - "Token-Based Incentive Schemes in Decentralized P2P Storage Networks"<br>3) Parwat Singh Anjana - "Efficient Parallel Execution of Block Transactions in Blockchain"<br>4) Andreea Elena Dragnoiu - "Using Blockchain Technology for Software Identity Maintenance"<br><br>10 minute each – Followed by a joint discussion in a Q/A  session</th>
+                </tr>
+                <tr>
+                  <th style="width:20%;">(15h15-15h30)</th>
+                  <th style="width:20%;">21h15-21h30</th>
+                  <th style="width:60%;">Closing remarks</th>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div>
             <h1>DOCTORAL SYMPOSIUM CHAIRS</h1>
