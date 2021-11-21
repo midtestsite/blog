@@ -5,14 +5,6 @@ peoples:
 people:
   - text: >
       KEYNOTE
-    image: /img/keynotes/keynote1.jpg
-    name: Raouf Boutaba
-    linkTo: keynote-speakers/
-    university: University of Waterloo
-    title: "The Cloud to Things Continuum – Infrastructure and Management"
-
-  - text: >
-      KEYNOTE
     image: /img/keynotes/Tamar.jpg
     name: Tamar Eilam
     linkTo: keynote-speakers/
@@ -26,3 +18,11 @@ people:
     linkTo: keynote-speakers/
     university: Carnegie Mellon University
     title: "Connected and Autonomous Vehicles as A Grand Challenge for Middleware in Cyber-Physical Systems"
+
+  - text: >
+      KEYNOTE
+    image: /img/keynotes/keynote1.jpg
+    name: Raouf Boutaba
+    linkTo: keynote-speakers/
+    university: University of Waterloo
+    title: "The Cloud to Things Continuum – Infrastructure and Management"
