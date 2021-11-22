@@ -1,0 +1,868 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 1px;
+}
+
+.left {
+  width: 2%;
+  height: 60px;
+  margin-top:60px;
+  margin-left: 10px;
+}
+
+.middle {
+  width: 1%;
+  margin-top:60px;
+}
+
+.right {
+  width: 90%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.selectTimezone{
+  margin-top:35px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+</style>
+<section id = "full-program">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div>
+            <h1>Schedule for Monday and Tuesday</h1>
+          </div>
+            <div style="margin-bottom:70px; overflow-x:auto;">
+              <table class="table table-bordered table-hover text-center">
+                <thead class="bg-gray">
+                  <tr>
+                    <th class="text-center">Time (EST)</th>
+                    <th class="text-center">Time (CET)</th>
+                    <th colspan="5" class="text-center" style="border-right-width:medium; border-right-color:#000;">Monday, December 6th</th>
+                    <th colspan="3" class="text-center">Tuesday, December 7th</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>8:50</td>
+                    <td>14:50</td>
+                    <td rowspan="11" style="background:#00C293; width:15%;"><a href="#DS" style="color:black;">Doctoral Symposium</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="border-right-width:medium; border-right-color:#000;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>9:00</td>
+                    <td>15:00</td>
+                    <td rowspan="4" style="background: #ff99ff; width:15%;"><a href="#tutorial1" style="color:black;">Tutorial1 (IBM AI)</a></td>
+                    <td rowspan="5" style="background: #66ff66; width:15%;"><a href="#m4iot" style="color:black;">M4IoT</a></td>
+                    <td></td>
+                    <td style="border-right-width:medium; border-right-color:#000;"></td>
+                    <td rowspan="4" style="background: #ccccff; width:15%;"><a href="#tutorial2" style="color:black;">Tutorial2 (DDS RTI)</a></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10:00</td>
+                    <td>16:00</td>
+                    <td></td>
+                    <td style="border-right-width:medium; border-right-color:#000;"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10:30</td>
+                    <td>16:30</td>
+                    <td></td>
+                    <td style="border-right-width:medium; border-right-color:#000;"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>11:00</td>
+                    <td>17:00</td>
+                    <td rowspan="4" style="background: #ffff66; width:15%;"><a href="#didl" style="color:black;">DIDL</a></td>
+                    <td rowspan="8" style="background: #ff6666; width:15%; border-right-width:medium; border-right-color:#000;"><a href="#woc" style="color:black;">WoC (Containers)</a></td>
+                    <td rowspan="5" style="background: #ffcc00; width:15%;"><a href="#dicg" style="color:black;">DICG</a></td>
+                    <td rowspan="8" style="background: #00b3b3; width:15%;"><a href="#wosc" style="color:black;">WoSC (Serverless Computing)</a></td>
+                  </tr>
+                  <tr>
+                    <td>11:30</td>
+                    <td>17:30</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>12:00</td>
+                    <td>18:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>13:00</td>
+                    <td>19:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>13:30</td>
+                    <td>19:30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>14:00</td>
+                    <td>20:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>14:30</td>
+                    <td>20:30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>15:30</td>
+                    <td>21:30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>16:00</td>
+                    <td>22:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="border-right-width:medium; border-right-color:#000;"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div>
+              <h1>Schedule for Main Conference</h1>
+            </div>
+              <div style="margin-bottom:70px; overflow-x:auto;">
+                <table class="table table-bordered table-hover text-center">
+                  <thead class="bg-gray">
+                    <tr>
+                      <th class="text-center">Time (EST)</th>
+                      <th class="text-center">Time (CET)</th>
+                      <th colspan="1" class="text-center">Wednesday, December 8th</th>
+                      <th colspan="1" class="text-center">Thursday, December 9th</th>
+                      <th colspan="1" class="text-center">Friday, December 10th</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>8:45</td>
+                      <td>14:45</td>
+                      <td style="background: #d279a6;">Welcome speech</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>9:00</td>
+                      <td>15:00</td>
+                      <td style="background: #00e6ac;"><a href="#keynote1" style="color:black;">Keynote 1 (Tamar Eilam)</a></td>
+                      <td style="background: #ffd24d;"><a href="#keynote2" style="color:black;">Keynote 2 (Raj Rajkumar)</a></td>
+                      <td style="background: #66ff66;"><a href="#keynote3" style="color:black;">Keynote 3 (Raouf Boutaba)</a></td>
+                    </tr>
+                    <tr>
+                      <td>10:00</td>
+                      <td>16:00</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                    </tr>
+                    <tr>
+                      <td>10:15</td>
+                      <td>16:15</td>
+                      <td style="background: #6699ff;"><a href="#rs1" style="color:black;">RS1: Serverless Computing</a></td>
+                      <td style="background: #a3a375;"><a href="#rs4" style="color:black;">RS4: Consistency and Transactions</a></td>
+                      <td style="background: #79a6d2;"><a href="#rs7" style="color:black;">RS7: Distributed Caching and Memory</a></td>
+                    </tr>
+                    <tr>
+                      <td>11:00</td>
+                      <td>17:00</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                    </tr>
+                    <tr>
+                      <td>11:15</td>
+                      <td>17:15</td>
+                      <td style="background: #cc66ff;"><a href="#rs2" style="color:black;">RS2: Security and Privacy</a></td>
+                      <td style="background: #8cd9b3;"><a href="#rs5" style="color:black;">RS5: Systems Support for Machine Learning</a></td>
+                      <td style="background: #99ccff;"><a href="#rs8" style="color:black;">RS8: Real-Time and Latency-Sensitive Services</a></td>
+                    </tr>
+                    <tr>
+                      <td>12:00</td>
+                      <td>18:00</td>
+                      <td style="background: #ff9999;">Lunch</td>
+                      <td style="background: #ff9999;">Lunch</td>
+                      <td style="background: #ff9999;">Lunch</td>
+                    </tr>
+                    <tr>
+                      <td>13:00</td>
+                      <td>19:00</td>
+                      <td style="background: #80ffff;"><a href="#rs3" style="color:black;">RS3: Fault-tolerance and Trusted Computing</a></td>
+                      <td style="background: #cccccc;"><a href="#industry" style="color:black;">Industry Session</a></td>
+                      <td style="background: #ffa31a;"><a href="#rs9" style="color:black;">Test-of-Time + RS9: Storage and Scheduling</a></td>
+                    </tr>
+                    <tr>
+                      <td>14:00</td>
+                      <td>20:00</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                      <td style="background: #ff9999;">Coffee break</td>
+                    </tr>
+                    <tr>
+                      <td>14:15</td>
+                      <td>20:15</td>
+                      <td style="background: #00ff55;"><a href="#DP" style="color:black;">Demos and Posters</a></td>
+                      <td style="background: #ccff99;"><a href="#rs6" style="color:black;">RS6: Virtualization and Runtime</a></td>
+                      <td style="background: #bbff33;"><a href="#end"style="color:black;">Business Meeting and Concluding Remarks</a></td>
+                    </tr>
+                    <tr>
+                      <td>15:15</td>
+                      <td>21:15</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            <div>
+              <h1 style="margin:0px;">Session Details</h1>
+            </div>
+            <div>
+              <h1>Monday, December 6th</h1>
+            </div>
+            <div id="tutorial1" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff99ff;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://middleware-conf.github.io/2021/tutorials/">Tutorial 1</a><p>( 09:00 &ndash; 11:30 EST ) ( 15:00 &ndash; 17:30 CET )</p></h3>
+                <p>Middleware and toolkit for next generation AI hardware acceleration<br>Kaoutar El Maghraoui (IBM T.J. Watson Research Center)</p>
+              </div>
+            </div>
+            <div id="DS" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#00C293;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://middleware-conf.github.io/2021/call-for-doctoral-symposium/">Doctoral Symposium</a><p>(8:50 &ndash; 15:30 EST) (14:50 &ndash; 21:30 CET)</p></h3>
+              </div>
+            </div>
+            <div id="m4iot" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#66ff66;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="http://www.m4iot.org/">8th International Workshop on Middleware and Applications for the Internet of Things (M4IoT)</a><p>(9:00 &ndash; 12:00 EST) (15:00 &ndash; 18:00 CET)</p></h3>
+              </div>
+            </div>
+            <div id="didl" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ffff66;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://didl-conf.github.io/didl5/">Fifth Workshop on Distributed Infrastructures for Deep Learning (DIDL)</a><p>(11:00 &ndash; 13:30 EST) (17:00 &ndash; 19:30 CET)</p></h3>
+              </div>
+            </div>
+            <div id="woc" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff6666;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://sites.google.com/view/woc21/home">The Seventh International Workshop on Container Technologies and Container Clouds (WoC)</a><p>(11:00 &ndash; 16:00 EST) (17:00 &ndash; 22:00 CET)</p></h3>
+              </div>
+            </div>
+
+
+
+
+
+            <div>
+              <hr>
+              <h1>Tuesday, December 7th</h1>
+            </div>
+            <div id="tutorial2" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ccccff;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://middleware-conf.github.io/2021/tutorials/">Tutorial 2</a><p>( 09:00 &ndash; 11:30 EST ) ( 15:00 &ndash; 17:30 CET )</p></h3>
+                <p>Connext DDS for Middleware Researchers: a Gentle Introduction to the Leading Distributed Connectivity Framework for Autonomous Systems<br>Kyle E Benson (RTI. University of California, Irvine)</p>
+              </div>
+            </div>
+            <div id="dicg" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ffcc00;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://dicg-workshop.github.io/2021/">2nd International Workshop on Distributed Infrastructure for the Common Good (DICG)</a><p>(11:00 &ndash; 14:00 EST) (17:00 &ndash; 20:00 CET)</p></h3>
+              </div>
+            </div>
+            <div id="wosc" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#00b3b3;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://www.serverlesscomputing.org/wosc7/">Seventh International Workshop on Serverless Computing (WoSC7)</a><p>(11:00 &ndash; 16:00 EST) (17:00 &ndash; 22:00 CET)</p></h3>
+              </div>
+            </div>
+
+
+
+
+
+
+            <div>
+              <hr>
+              <h1>Wednesday, December 8th (Main Conference)</h1>
+            </div>
+            <div id="keynote1" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#00e6ac;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://middleware-conf.github.io/2021/keynote-speakers/">Opening speech and Keynote #1</a><p>( 08:45 &ndash; 10:00 EST ) ( 14:45 &ndash; 16:00 CET )</p></h3>
+                <p>Opening speech and announcement for Middleware 2022 (15 minutes)</p>
+                <p><b>Is Cloud Good or Bad for the Environment?<br>Tamar Eilam (IBM T.J. Watson Research Center)</b></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 10:00 &ndash; 10:15 EST ) ( 16:00 &ndash; 16:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="rs1" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#6699ff;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 1. Serverless Computing<p>(10:15 &ndash; 11:00 EST) (16:15 &ndash; 17:00 CET)</p></h3>
+                <p><b>SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing</b><br>Marcin Copik, Grzegorz Kwasniewski, Maciej Besta (ETH Zurich); Michal Podstawski (Future Processing SA); Torsten Hoefler (ETH Zurich)</p>
+                <p><b>Sizeless: Predicting the Optimal Size of Serverless Functions</b><br>Simon Eismann, Long Bui, Johannes Grohmann (University of Würzburg); Cristina Abad (Escuela Superior Politecnica del Litoral); Nikolas Herbst (University of Würzburg, Germany); Samuel Kounev (University of Wuerzburg)</p>
+                <p><b>Experience Paper: Towards Enhancing Cost Efficiency in Serverless Machine Learning Training</b><br>Marc Sánchez- Artigas, Pablo Gimeno Sarroca (Universitat Rovira i Virgili)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 11:00 &ndash; 11:15 EST ) ( 17:00 &ndash; 17:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="rs2" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#cc66ff;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 2. Security and Privacy<p>(11:15 &ndash; 12:00 EST) (17:15 &ndash; 18:00 CET)</p></h3>
+                <p><b>PProx: Efficient Privacy for Recommendation-as-a-Service</b><br>Guillaume Rosinosky (ICTEAM, UCLouvain); Simon Da Silva (Univ. Bordeaux, CNRS, Bordeaux INP, LaBRI, UMR ); Sonia Ben Mokhtar (INSA Lyon, LIRIS, CNRS); Daniel Négru, Laurent Réveillère (Univ. Bordeaux, CNRS, Bordeaux INP, LaBRI, UMR ); Etienne Rivière (ICTEAM, UCLouvain)</p>
+                <p><b>Privacy Preserving Event based Transaction System in a Decentralized Environment</b><br>Rabimba Karanjai (University Of Houston); Lei Xu (University of Texas Rio Grande Valley); Zhimin Gao (Auburn University at Montgomery); Lin Chen (Texas Tech University); Kaleem Mudabbir (University Of Houston); Weidong Shi (University of Houston)</p>
+                <p><b>Experience Paper: sgx-dl: Dynamic Loading and Hot-Patching for Secure Applications</b><br>Nico Weichbrodt, Joshua Heinemann, Lennart Almstedt (TU Braunschweig, Germany); Pierre-Louis Aublin (IIJ Innovation Insitute, Japan); Rüdiger Kapitza (TU Braunschweig, Germany)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Lunch Break<p>( 12:00 &ndash; 13:00 EST ) ( 18:00 &ndash; 19:00 CET )</p></h3>
+              </div>
+            </div>
+            <div id="rs3" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#80ffff;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 3. Fault tolerance and Trusted Computing<p>(13:00 &ndash; 14:00 EST) (19:00 &ndash; 20:00 CET)</p></h3>
+                <p><b>RamCast: RDMA-based Atomic Multicast</b><br>Long Le Hoang and Mojtaba Eslahi Kelorazi (UniversitÃ  della Svizzera italiana (USI), Switzerland); Paulo Coelho (Federal University of Uberlandia, Brazil); Fernando Pedone (UniversitÃ  della Svizzera italiana (USI), Switzerland)</p>
+                <p><b>Precursor: A Fast, Client-Centric and Trusted Key-Value Store using RDMA and Intel SGX</b><br>Ines Messadi, Shivananda Neumann, Nico Weichbrodt, Lennart Almstedt, Mohammad Mahhouk,  Rüdiger Kapitza (TU Braunschweig)</p>
+                <p><b>Prosecutor: An Efficient BFT Consensus Algorithm with Behavior-aware Penalization against Byzantine Attacks</b><br>Gengrui Zhang and Hans-Arno Jacobsen (University of Toronto)</p>
+                <p><b>Gossip Consensus</b><br>Daniel Cason and Nenad Milosevic (UniversitÃ  della Svizzera italiana (USI), Lugano, Switzerland); Zarko Milosevic (Informal Systems, Toronto, Canada); Fernando Pedone (UniversitÃ  della Svizzera italiana (USI), Lugano, Switzerland)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 14:00 &ndash; 14:15 EST ) ( 20:00 &ndash; 20:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="DP" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#00ff55;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Demos and Posters<p>(14:15 &ndash; 15:15 EST) (20:15 &ndash; 21:15 CET)</p></h3>
+                <p>This session will be held on the ohyay platform.</p>
+            </div>
+            </div>
+
+
+
+
+            <div>
+              <hr>
+              <h1>Thursday, December 9th (Main Conference)</h1>
+            </div>
+            <div id="keynote2" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ffd24d;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://middleware-conf.github.io/2021/keynote-speakers/">Keynote #2</a><p>( 09:00 &ndash; 10:00 EST ) ( 15:00 &ndash; 16:00 CET )</p></h3>
+                <p><b>Connected and Autonomous Vehicles as A Grand Challenge for Middleware in Cyber-Physical Systems<br>Raj Rajkumar (Carnegie Mellon University)</b></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 10:00 &ndash; 10:15 EST ) ( 16:00 &ndash; 16:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="rs4" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#a3a375;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 4. Consistency and Transactions<p>(10:15 &ndash; 11:00 EST) (16:15 &ndash; 17:00 CET)</p></h3>
+                <p><b>FaaSTCC: Efficient Transactional Causal Consistency for Serverless Computing</b><br>Taras Lykhenko, Rafael Soares, Luis Rodrigues (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa)</p>
+                <p><b>Highly-Available and Consistent Group Collaboration at the Edge with Colony</b><br>Ilyas Toumlilt (Sorbonne Université, LIP6, Inria); Pierre Sutra (Télécom SudParis); Marc Shapiro (Sorbonne Université, LIP6, Inria)</p>
+                <p><b>FW-KV: Improving Read Guarantees in PSI</b><br>Masoomeh Javidi Kishi and Roberto Palmieri (Lehigh University)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 11:00 &ndash; 11:15 EST ) ( 17:00 &ndash; 17:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="rs5" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#8cd9b3;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 5. Systems Support for Machine Learning<p>(11:15 &ndash; 12:00 EST) (17:15 &ndash; 18:00 CET)</p></h3>
+                <p><b>Implicit Model Specialization through DAG-based Decentralized Federated Learning</b><br>Jossekin Beilharz (Hasso Plattner Institute, University of Potsdam; Charité – Universitätsmedizin Berlin); Bjarne Pfitzner (Hasso Plattner Institute, University of Potsdam); Robert Schmid (Hasso Plattner Institute, University of Potsdam; Charité – Universitätsmedizin Berlin); Paul Geppert, Bernd Arnrich, Andreas Polze (Hasso Plattner Institute, University of Potsdam)</p>
+                <p><b>SwitchFlow: Preemptive Multitasking for Deep Learning</b><br>Xiaofeng Wu, Jia Rao (The University of Texas at Arlington); Wei Chen (Nvidia Corporation); Hang Huang (Huazhong University of Science and Technology); Chris Ding (The University of Texas at  Arlington); Heng Huang (University of Pittsburgh)</p>
+                <p><b>Towards Optimal Placement and Scheduling of DNN Operations with Pesto</b><br>Ubaid Ullah Hafeez, Xiao Sun, Anshul Gandhi, and Zhenhua Liu (Stony Brook University)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Lunch Break<p>( 12:00 &ndash; 13:00 EST ) ( 18:00 &ndash; 19:00 CET )</p></h3>
+              </div>
+            </div>
+            <div id="industry" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#cccccc;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Industry Session<p>(13:00 &ndash; 14:00 EST) (19:00 &ndash; 20:00 CET)</p></h3>
+                <p><b>Authenticated Key-Value Stores with Hardware Enclaves</b><br>Kai Li, Yuzhe Tang (Syracuse University); Qi Zhang (IBM TJ Watson); Jianliang Xu (Hong Kong Baptist University); Jason Chen (Syracuse University)</p>
+                <p><b>The Serverless Shell</b><br>Aurèle Mahéo, Pierre Sutra (Télécom SudParis); Tristan Tarrant (RedHat)</p>
+                <p><b>Polygon: A QUIC-Based CDN Server Selection System Supporting Multiple Resource Demands</b><br>Mengying Zhou, Tiancheng Guo, Yang Chen (Fudan University); Junjie Wan (Huawei Technologies Co. Ltd.); Xin Wang (Fudan University)</p>
+                <p><b>Procedure-driven Deployment Support for the Microservice Era</b><br>Amit Sheoran, Sonia Fahmy (Purdue University); Puneet Sharma (Hewlett Packard Labs); Navin Modi (Purdue University)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 14:00 &ndash; 14:15 EST ) ( 20:00 &ndash; 20:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="rs6" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ccff99;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 6. Virtualization and Runtimes<p>(14:15 &ndash; 15:15 EST) (20:15 &ndash; 21:15 CET)</p></h3>
+                <p><b>A Fresh Look at the Architecture and Performance of Contemporary Isolation Platforms</b><br>Vincent van Rijn and Jan S. Rellermeyer (TU Delft)</p>
+                <p><b>Montsalvat: Intel SGX Shielding for GraalVM Native Images</b><br>Peterson Yuhala, Jämes Ménétrey, Pascal Felber, Valerio Schiavoni (Université de Neuchâtel); Alain Tchana (ENS Lyon/Inria); Gaël Thomas (Télécom SudParis/Institut Polytechnique de Paris); Hugo Guiroux, Jean-Pierre Lozi (Oracle Labs) (also possible in security)</p>
+                <p><b>Xar-Trek: Run-time Execution Migration among FPGAs and Heterogeneous-ISA CPUs</b><br>Edson Horta, Ho-Ren Chuang, Naarayanan Rao VSathish (Virginia Tech); Cesar Philippidis (Rasec Tech); Antonio Barbalace (The University of Edinburgh); Pierre Olivier (The University of Manchester); Binoy Ravindran (Virginia Tech)</p>
+                <p><b>Experience Paper: Danaus - Isolation and Efficiency of Container I/O at the Client Side of Network Storage</b><br>Giorgos Kappes and Stergios V. Anastasiadis (University of Ioannina)</p>
+            </div>
+            </div>
+
+
+
+
+            <div>
+              <hr>
+              <h1>Friday, December 10th (Main Conference)</h1>
+            </div>
+            <div id="keynote3" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#66ff66;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3><a href="https://middleware-conf.github.io/2021/keynote-speakers/">Keynote #3</a><p>( 09:00 &ndash; 10:00 EST ) ( 15:00 &ndash; 16:00 CET )</p></h3>
+                <p><b>The Cloud to Things Continuum – Infrastructure and Management<br>Raouf Boutaba (University of Waterloo)</b></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 10:00 &ndash; 10:15 EST ) ( 16:00 &ndash; 16:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="rs7" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#79a6d2;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 7. Distributed Caching and Monitoring<p>(10:15 &ndash; 11:00 EST) (16:15 &ndash; 17:00 CET)</p></h3>
+                <p><b>SHARC: Improving Adaptive Replacement Cache with Shadow Recency Cache Management</b><br>Xiaoming Du and Cong Li (Intel Corporation)</p>
+                <p><b>CaT: Content-aware Tracing and Analysis for Distributed Systems</b><br>Tânia Esteves, Francisco Neves, Rui Oliveira, João Paulo (INESC TEC & University of Minho)</p>
+                <p><b>Lognroll: Discovering Accurate Log Templates by Iterative Filtering</b><br>Byungchul Tak (Kyungpook National University); Wook-Shin Han (Pohang University of Science and Technology)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 11:00 &ndash; 11:15 EST ) ( 17:00 &ndash; 17:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="rs8" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#99ccff;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 8. Real-time and Latency-sensitive Services<p>(11:15 &ndash; 12:00 EST) (17:15 &ndash; 18:00 CET)</p></h3>
+                <p><b>YASMIN: a Real-time Middleware for COTS Heterogeneous Platforms</b><br>Benjamin Rouxel (University of Amsterdam); Sebastian Altmeyer (University of Augsburg); Clemens Grelck (University of Amsterdam)</p>
+                <p><b>Memory at Your Service: Fast Memory Allocation for Latency-critical Services</b><br>Aidi Pi, Junxian Zhao, Shaoqi Wang, Xiaobo Zhou (University of Colorado Colorado Springs)</p>
+                <p><b>Magic-Pipe: Self-optimizing video analytics pipelines</b><br>Giuseppe Coviello, Yi Yang, Kunal Rao, Srimat Chakradhar (NEC Laboratories America Inc.)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Lunch Break<p>( 12:00 &ndash; 13:00 EST ) ( 18:00 &ndash; 19:00 CET )</p></h3>
+              </div>
+            </div>
+            <div id="rs9" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ffa31a;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Test-of-Time Award<p><b>Session Chair: Gordon Blair (Lancaster University)</b></p><p>(13:00 &ndash; 13:15 EST) (19:00 &ndash; 19:15 CET)</p></h3>
+
+              </div>
+            </div>
+            <div style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ffa31a;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Research Session 9. Storage and Scheduling<p>(13:15 &ndash; 14:00 EST) (19:15 &ndash; 20:00 CET)</p></h3>
+                <p><b>Snarl: Entangled Merkle Trees for Improved File Availability and Storage Utilization</b><br>Racin Nygaard (University of Stavanger); Vero Estrada-Galiñanes (EPFL); Hein Meling (University of Stavanger)</p>
+                <p><b>Lachesis: A Middleware for Customizing OS Scheduling of Stream Processing Queries</b><br>Dimitris Palyvos-Giannas (Chalmers University of Technology); Gabriele Mencagli (University of Pisa); Marina Papatriantafilou, Vincenzo Gulisano (Chalmers University of Technology)</p>
+                <p><b>Let’s Wait Awhile: How Temporal Workload Shifting Can Reduce Carbon Emissions in the Cloud</b><br>Philipp Wiesner, Ilja Behnke, Dominik Scheinert (Technische Universität Berlin); Kordian Gontarska (Hasso Plattner Institute, University of Potsdam); Lauritz Thamsen (Technische Universität Berlin)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#ff9999;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Discussion Break<p>( 14:00 &ndash; 14:15 EST ) ( 20:00 &ndash; 20:15 CET )</p></h3>
+                <p>Please use our Slack and Zoom to discuss</p>
+              </div>
+            </div>
+            <div id="end" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#bbff33;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>Business Meeting and Concluding Remarks<p><b>Chair: Hans-Arno Jacobsen (MSRG)</b></p><p>(14:15 &ndash; 15:15 EST) (20:15 &ndash; 21:15 CET)</p></h3>
+                <p>In this public meeting, we will discuss the future of the conference and gather feedback from the audience.</p>
+            </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

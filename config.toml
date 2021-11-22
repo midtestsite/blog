@@ -141,7 +141,7 @@ theme = "middleware-hugo-theme"
       weight = 1
       name = "Full Program"
       parent = "PROGRAM"
-      url = "/"
+      url = "/full-program"
 
       [[Languages.en.menu.header]]
       weight = 2
