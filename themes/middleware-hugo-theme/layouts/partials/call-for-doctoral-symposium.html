@@ -175,7 +175,39 @@ $(document).ready(function(){
               </tbody>
             </table>
           </div>
+
           <div>
+            <div>
+              <div class="mb-30">
+                <h1>Keynote Speaker</h1>
+              </div>
+              <div class="col-md-3 mb-10">
+                {{ $data.callfordoctoralsymposium.keynote.img | markdownify }}
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="mb-10">
+                <p style="color: #655E7A; font-size:30px;">{{ $data.callfordoctoralsymposium.keynote.name | markdownify }}</p>
+                <p style="font-size:20px;">{{ $data.callfordoctoralsymposium.keynote.university | markdownify }}</p>
+                <p style="font-size:18px;">{{ $data.callfordoctoralsymposium.keynote.title | markdownify }}</p>
+              </div>
+            </div>
+            <div  class="col-md-12">
+              <p><b>Abstract</b></p>
+              <p align = "justify">Software has become essential to modern life and controls functions as diverse as the capabilities for home appliances, aircraft flight control systems, mobile phones, health care systems, financial transactions, and digital learning. Individuals, organizations, markets, and governments are increasingly dependent on software. Despite advances in computing and software technologies, however, we continue to see headlines about failures related to software, particularly distributed real-time and embedded software.</p>
+              <p align = "justify">This presentation will cover investments and advances in research needed to address these issues.  In particular, I will discuss how the current notion of software development will be replaced by one where the software pipeline consists of AI and humans collaborating at scale on continuously evolving systems.  These software-enabled systems will be even more pervasive than today, with levels of trust commensurate with the importance of the decisions they make.</p>
+              <p align = "justify">I will also discuss how software and humans need to become mutually trustworthy peers comprising socio-technical ecosystems, where human expressions of intent are reliably understood and socio-technical platforms enable collaboration at scale, leading to socially resilient, ethical, and unbiased behavior.  Advances in compositional correctness and continuous reflection are also needed to allow intelligent systems to learn from experience and continuously improve.</p>
+              <p align="justify">See <a href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=741193" target="_blank">resources.sei.cmu.edu/library/asset-view.cfm?assetid=741193</a> for more information on this topic.</p>
+              <p><b>Biography</b></p>
+              <p align = "justify">Dr. Douglas C. Schmidt is the Cornelius Vanderbilt Professor of Computer Science, Associate Provost for Research Development and Technologies, Co-Chair of the Data Science Institute, and a Senior Researcher at the Institute for Software Integrated Systems at Vanderbilt University.  He is also a Visiting Scientist at the Software Engineering Institute (SEI) at Carnegie Mellon University (CMU), where he served as the Chief Technology Officer from 2010 to 2012.<p>
+              <p align = "justify">Dr. Schmidt's research covers a range of software-related topics, including patterns, optimization techniques, and empirical analyses of frameworks and model-driven engineering tools that facilitate the development of mission-critical middleware for distributed real-time embedded (DRE) systems and mobile cloud computing applications running over wireless/wired networks and embedded system interconnects. He has published 650+ technical papers and books that have been cited 44,900+ times, his h-index is 87, and he has mentored and graduated over 40 Ph.D. and Masters students.</p>
+              <p align = "justify">Dr. Schmidt led the development of ACE, TAO, CIAO, and CoSMIC for the past three decades.  These open-source middleware frameworks and model-driven tools constitute some of the most successful examples of software R&D ever transitioned from research to industry, being widely used by thousands of companies and agencies worldwide in many domains, including national defense and homeland security, datacom/telecom, financial services, healthcare, and online gaming.</p>
+              <p align = "justify">Dr. Schmidt received B.A. and M.A. degrees in Sociology from the College of William and Mary in Williamsburg, Virginia, and an M.S. and a Ph.D. in Computer Science from the University of California, Irvine (UCI) in 1984, 1986, 1990, and 1994, respectively.</p>
+              <hr>
+            </div>
+          </div>
+
+          <div class="col-md-9 col-sm-12">
             <h1>DOCTORAL SYMPOSIUM CHAIRS</h1>
             <p align="justify">For any further questions, please contact the Middleware 2021 Doctoral Symposium chairs.</p>
             {{ range $data.callfordoctoralsymposium.chairs }}
@@ -184,10 +216,10 @@ $(document).ready(function(){
             </ul>
             {{ end }}
           </div>
-          <div>
+          <div class="col-md-9 col-sm-12">
             For the camera-ready instructions, please visit the <a href="https://middleware-conf.github.io/2021/camera-ready-instructions/">camera-ready instructions page</a>.
           </div>
-          <div>
+          <div class="col-sm-12">
             <h3 align="justify">The Middleware conference adheres strictly to the <a href="https://www.acm.org/special-interest-groups/volunteer-resources/officers-manual/policy-against-discrimination-and-harassment" target = _blank>ACM policies against discrimination and harassment</a>.</h3>
           </div>
         </div>

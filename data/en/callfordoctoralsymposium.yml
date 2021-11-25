@@ -55,3 +55,9 @@ presentation:
       - text : <a href=https://zoom.us/ target = _blank>Zoom</a> provides a simple method for recording videos by simply starting a meeting in solitaire, opening the camera and sharing the screen.
       - text : PowerPoint also provides a mechanism for recording slides.
       - text : Do not hesitate to contact the chairs of your respective track and the general chairs if you have any questions.
+
+keynote:
+  img: '<img src=/2021/img/keynotes/DSKeynote.jpeg width=100% height=auto">'
+  name: "<b>Douglas C. Schmidt</b>"
+  university: "<b>Vanderbilt University</b>"
+  title: "<b>Architecting the Systems of the Future: A Research Agenda</b>"
