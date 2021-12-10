@@ -223,10 +223,6 @@ theme = "middleware-hugo-theme"
     btnText = "Conference Information"
     url = "#scope"
 
-  [Languages.en.params.statement]
-    enable = true
-    text = "Due to the current uncertainty surrounding international travel, the Middleware 2021 conference will be held online from December 6th to 10th. This includes all workshops and tracks. More information, including author instructions and conference registration, will be provided on this website and social media as soon as possible."
-
 
   [Languages.en.params.wrapper]
     enable = true
